@@ -1,0 +1,36 @@
+{
+    "name": "!&# Packages",
+    "homepage": "http://bangpound.github.io/packages",
+    "require-all": true,
+    "output-dir": ".",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/CorpWatchDataBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/TwitterDataBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/TwitterRestBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/guzzle-clients"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/guzzle-proxy-silex-extension"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/angularjs-bundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/satellizer-bundle"
+        }
+    ]
+}
