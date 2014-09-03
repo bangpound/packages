@@ -43,6 +43,18 @@
         {
             "type": "vcs",
             "url": "https://github.com/bangpound/elasticsearch-bundle-1.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/R-Shief/castle-search-bundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/R-Shief/kal3a-bundle.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/R-Shief/migration-bundle.git"
         }
     ]
 }
