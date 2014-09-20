@@ -1,0 +1,13 @@
+{
+  "name": "bangpound-satis-repository",
+  "version": "0.0.0",
+  "homepage": "http://bangpound.github.io/packages/",
+  "authors": [
+    "Benjamin Doherty <bjd@bangpound.org>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "moment": "~2.8.3",
+    "jquery": "~2.1.1"
+  }
+}

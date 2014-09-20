@@ -1,0 +1,16 @@
+{
+    "name": "bangpound/packages",
+    "description": "experimental",
+    "require": {
+        "composer/satis": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "bin-dir": "bin"
+    }
+}
