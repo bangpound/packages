@@ -9,7 +9,7 @@
         {% include 'styles.css' %}
     </style>
 </head>
-<body>
+<body ng-app="satisBrowser">
 
 <div id="doc" class="yui-t7">
     <div id="hd">
@@ -22,88 +22,63 @@
         </div>
     </div>
     <div id="bd">
-        <div class="yui-g">
+        <div class="yui-g" ng-controller="mainController">
             Adding the repository to <em>composer.json</em>:
             <pre><code>{{ repository | json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_UNESCAPED_SLASHES')) | raw }}</code></pre>
 
             Filter by package name:
-            <input type="text" id="search" autocomplete="off" autofocus />
+            <input type="text" id="search" ng-model="search" autocomplete="off" autofocus />
 
-            {% for name, package in packages %}
-                <div>
+            {% verbatim %}
+                <div ng-repeat="(name, package) in packages | filter:search">
                     <h3 id="{{ package.highest.name }}">{{ package.highest.name }}</h3>
-                    {% if package.highest.description %}
-                        <p>{{ package.highest.description }}</p>
-                    {% endif %}
+                    <p ng-if="package.highest.description">{{ package.highest.description }}</p>
                     <table>
-                        {% if package.highest.homepage %}
-                            <tr>
+                            <tr ng-if="package.highest.homepage">
                                 <th>Homepage</th>
                                 <td><a href="{{ package.highest.homepage }}">{{ package.highest.homepage }}</a></td>
                             </tr>
-                        {% endif %}
-                        {% if package.highest.license %}
-                            <tr>
+                            <tr ng-if="package.highest.license">
                                 <th>License</th>
-                                <td>{{ package.highest.license|join(', ') }}</td>
+                                <td>{{ package.highest.license.join(', ') }}</td>
                             </tr>
-                        {% endif %}
-                        {% if package.highest.authors %}
-                            <tr>
+                            <tr ng-if="package.highest.authors">
                                 <th>Authors</th>
                                 <td>
-                                    {% for author in package.highest.authors %}
-                                        {%- if author.homepage -%}
-                                            <a href="{{ author.homepage }}">{{ author.name }}</a>
-                                        {%- else -%}
-                                            {{ author.name }}
-                                        {%- endif -%}
-                                        {%- if not loop.last -%}, {% endif -%}
-                                    {% endfor %}
+                                    <span ng-repeat="author in package.highest.authors" ng-switch="author.homepage.length > 0">
+                                            <a ng-switch-when="true" href="{{ author.homepage }}">{{ author.name }}</a>
+                                            <span ng-switch-default>{{ author.name }}</span>
+                                    </span>
                                 </td>
                             </tr>
-                        {% endif %}
-                        {% if package.highest.support %}
-                            <tr>
+                            <tr ng-if="package.highest.support">
                                 <th>Support</th>
                                 <td>
                                     <ul>
-                                        {% for support_type, support_url in package.highest.support %}
-                                            <li>{{ support_type|capitalize }}: <a href="{{ support_url }}">{{ support_url }}</a></li>
-                                        {% endfor %}
+                                            <li ng-repeat="(support_type, support_url) in package.highest.support">{{ support_type | capitalize }}: <a href="{{ support_url }}">{{ support_url }}</a></li>
                                     </ul>
+                                </td>
                             </tr>
-                            </td>
-                        {% endif %}
                         <tr>
                             <th>Releases</th>
                             <td>
-                                {% for version in package.versions %}
-                                    {%- if version.distType -%}
-                                        <a href="{{ version.distUrl }}" title="{{ version.distReference }}">{{ version.prettyVersion }}</a>
-                                    {%- else -%}
-                                        <a href="{{ version.sourceUrl }}" title="{{ version.sourceReference }}">{{ version.prettyVersion }}</a>
-                                    {%- endif -%}
-                                    {%- if not loop.last -%}, {% endif -%}
-                                {% endfor %}
+                                <span ng-repeat="version in package.versions" ng-switch="version.dist.type.length > 0">
+                                        <a ng-switch-when="true" href="{{ version.dist.url }}" title="{{ version.dist.reference }}">{{ version.version }}</a>
+                                        <a ng-switch-default href="{{ version.source.url }}" title="{{ version.source.reference }}">{{ version.version }}</a>
+                                </span>
                             </td>
                         </tr>
                         <tr>
                             <th>Required by</th>
                             <td>
-                                {% set package_dependencies = attribute(dependencies, name) %}
-                                {% if package_dependencies|length %}
                                     <ul>
-                                        {% for dependency in package_dependencies %}
-                                            <li><a href="#{{ dependency }}">{{ dependency }}</a></li>
-                                        {% endfor %}
+                                            <li ng-repeat="dependency in dependencies[name]"><a href="#{{ dependency }}">{{ dependency }}</a></li>
                                     </ul>
-                                {% endif %}
                             </td>
                         </tr>
                     </table>
                 </div>
-            {% endfor %}
+            {% endverbatim %}
         </div>
     </div>
     <div id="ft">
@@ -111,47 +86,21 @@
     </div>
 </div>
 
-<script src="vendor/jquery/dist/jquery.min.js"></script>
-<script src="vendor/moment/min/moment.min.js"></script>
+<script src="vendor/angularjs/angular.js"></script>
 <script>
-    $(function(){
-        var packages = $('h3');
-        var timer;
-        $('input#search').keyup(function(){
-            clearTimeout(timer);
-            var ms = 350; // milliseconds
-            var needle = $(this).val().toLowerCase(), show;
-            timer = setTimeout(function() {
-                packages.each(function(){
-                    show = $(this).text().toLowerCase().indexOf(needle) != -1;
-                    $(this).parent().toggle(show);
-                });
-            }, ms);
-        }).focus();
-        $('input#search').change(function(){
-            window.location.hash = "!/" + $(this).val().toLowerCase();
-        });
-        $(window).on("hashchange", function() {
-            var $input = $('input#search');
-            if (window.location.hash.indexOf("#!/") == 0) {
-                $input.val(window.location.hash.replace(/#!\//,"").toLowerCase());
-                $input.trigger("keyup");
-            } else {
-                var $anchor = $("h3[id='"+window.location.hash.replace(/^#/,"")+"']");
-                if ($anchor.length != $anchor.filter(":visible").length) {
-                    $input.val("").trigger("keyup");
-                    $anchor.get(0).scrollIntoView();
-                }
+    angular
+        .module('satisBrowser', [])
+        .value('packages', {{ packages | json_encode | raw }})
+        .value('dependencies', {{ dependencies | json_encode | raw }})
+        .filter('capitalize', function() {
+            return function(input, all) {
+                return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
             }
-        });
-        $(window).trigger("hashchange");
-        var $lastUpdate = $('#lastupdate time');
-        function updateDate() {
-            $lastUpdate.text(moment('{{ "now"|date(constant('\DateTime::ISO8601')) }}').fromNow());
-        }
-        setInterval(updateDate, 5000);
-        updateDate();
-    });
+        })
+        .controller('mainController', ['$scope', 'packages', 'dependencies', function ($scope, packages, dependencies) {
+            $scope.packages = packages;
+            $scope.dependencies = dependencies;
+        }]);
 </script>
 </body>
 </html>
