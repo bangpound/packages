@@ -1,7 +1,6 @@
 {
     "name": "!&#",
     "homepage": "http://bangpound.github.io/packages",
-    "require-all": true,
     "output-dir": "public",
     "twig-template": "views/index.html.twig",
     "repositories": [
