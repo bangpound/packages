@@ -11,18 +11,18 @@
 </head>
 <body ng-app="satisBrowser">
 
-<div id="doc" class="yui-t7">
+<div id="doc" class="yui-t7" ng-controller="mainController">
     <div id="hd">
         <h1>{{ name }} Composer Repository</h1>
         {% if description %}
             <p>{{ description|raw }}</p>
         {% endif %}
         <div id="lastupdate">
-            Last updated: <time datetime="{{ "now"|date(constant('\DateTime::ISO8601')) }}">{{ "now"|date(constant('\DateTime::RSS')) }}</time>
+            Last updated: <time datetime="{{ "now"|date(constant('\DateTime::ISO8601')) }}">{% verbatim %}{{ lastUpdate|date }}{% endverbatim %}</time>
         </div>
     </div>
     <div id="bd">
-        <div class="yui-g" ng-controller="mainController">
+        <div class="yui-g">
             Adding the repository to <em>composer.json</em>:
             <pre><code>{{ repository | json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_UNESCAPED_SLASHES')) | raw }}</code></pre>
 
@@ -92,14 +92,16 @@
         .module('satisBrowser', [])
         .value('packages', {{ packages | json_encode | raw }})
         .value('dependencies', {{ dependencies | json_encode | raw }})
+        .value('lastUpdate', new Date({{ "now" | date(constant('\DateTime::RFC2822')) | json_encode | raw }}))
         .filter('capitalize', function() {
             return function(input, all) {
                 return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
             }
         })
-        .controller('mainController', ['$scope', 'packages', 'dependencies', function ($scope, packages, dependencies) {
+        .controller('mainController', ['$scope', 'packages', 'dependencies', 'lastUpdate', function ($scope, packages, dependencies, lastUpdate) {
             $scope.packages = packages;
             $scope.dependencies = dependencies;
+            $scope.lastUpdate = lastUpdate;
         }]);
 </script>
 </body>
