@@ -33,60 +33,60 @@
         </form>
     </div>
     <div class="pure-u-1-1">
-            <h2>Adding the repository to <em>composer.json</em>:</h2>
-            <pre><code>{{ repository | json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_UNESCAPED_SLASHES')) | raw }}</code></pre>
+        <h2>Adding the repository to <em>composer.json</em>:</h2>
+        <pre><code>{{ repository | json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_UNESCAPED_SLASHES')) | raw }}</code></pre>
     </div>
 
-            {% verbatim %}
-            <div class="pure-u-1-1" ng-repeat="(name, package) in packages | filter:search">
-                <h3 id="{{ package.highest.name }}">{{ package.highest.name }}</h3>
-                <p ng-if="package.highest.description">{{ package.highest.description }}</p>
-                <table class="pure-table">
-                    <tr ng-if="package.highest.homepage">
-                        <th>Homepage</th>
-                        <td><a href="{{ package.highest.homepage }}">{{ package.highest.homepage }}</a></td>
-                    </tr>
-                    <tr ng-if="package.highest.license">
-                        <th>License</th>
-                        <td>{{ package.highest.license.join(', ') }}</td>
-                    </tr>
-                    <tr ng-if="package.highest.authors">
-                        <th>Authors</th>
-                        <td>
-                            <span ng-repeat="author in package.highest.authors" ng-switch="author.homepage.length > 0">
-                                <a ng-switch-when="true" href="{{ author.homepage }}">{{ author.name }}</a>
-                                <span ng-switch-default>{{ author.name }}</span>
-                            </span>
-                        </td>
-                    </tr>
-                    <tr ng-if="package.highest.support">
-                        <th>Support</th>
-                        <td>
-                            <ul>
-                                <li ng-repeat="(support_type, support_url) in package.highest.support">{{ support_type | capitalize }}: <a href="{{ support_url }}">{{ support_url }}</a></li>
-                            </ul>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Releases</th>
-                        <td>
-                            <span ng-repeat="version in package.versions" ng-switch="version.dist.type.length > 0">
-                                <a ng-switch-when="true" href="{{ version.dist.url }}" title="{{ version.dist.reference }}">{{ version.version }}</a>
-                                <a ng-switch-default href="{{ version.source.url }}" title="{{ version.source.reference }}">{{ version.version }}</a>
-                            </span>
-                        </td>
-                    </tr>
-                    <tr>
-                        <th>Required by</th>
-                        <td>
-                            <ul>
-                                <li ng-repeat="dependency in dependencies[name]"><a href="#{{ dependency }}">{{ dependency }}</a></li>
-                            </ul>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-            {% endverbatim %}
+    {% verbatim %}
+    <div class="pure-u-1-1" ng-repeat="(name, package) in packages | filter:search">
+        <h3 id="{{ package.highest.name }}">{{ package.highest.name }}</h3>
+        <p ng-if="package.highest.description">{{ package.highest.description }}</p>
+        <table class="pure-table">
+            <tr ng-if="package.highest.homepage">
+                <th>Homepage</th>
+                <td><a href="{{ package.highest.homepage }}">{{ package.highest.homepage }}</a></td>
+            </tr>
+            <tr ng-if="package.highest.license">
+                <th>License</th>
+                <td>{{ package.highest.license.join(', ') }}</td>
+            </tr>
+            <tr ng-if="package.highest.authors">
+                <th>Authors</th>
+                <td>
+                    <span ng-repeat="author in package.highest.authors" ng-switch="author.homepage.length > 0">
+                        <a ng-switch-when="true" href="{{ author.homepage }}">{{ author.name }}</a>
+                        <span ng-switch-default>{{ author.name }}</span>
+                    </span>
+                </td>
+            </tr>
+            <tr ng-if="package.highest.support">
+                <th>Support</th>
+                <td>
+                    <ul>
+                        <li ng-repeat="(support_type, support_url) in package.highest.support">{{ support_type | capitalize }}: <a href="{{ support_url }}">{{ support_url }}</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <th>Releases</th>
+                <td>
+                    <span ng-repeat="version in package.versions" ng-switch="version.dist.type.length > 0">
+                        <a ng-switch-when="true" href="{{ version.dist.url }}" title="{{ version.dist.reference }}">{{ version.version }}</a>
+                        <a ng-switch-default href="{{ version.source.url }}" title="{{ version.source.reference }}">{{ version.version }}</a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <th>Required by</th>
+                <td>
+                    <ul>
+                        <li ng-repeat="dependency in dependencies[name]"><a href="#{{ dependency }}">{{ dependency }}</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+    {% endverbatim %}
     <div class="pure-u-1-1">
         <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> {{ constant('Composer\\Satis\\Satis::VERSION') }} - Last updated:  {{ "now"|date(constant('\DateTime::ISO8601')) }}</small></p>
     </div>
