@@ -1,0 +1,1296 @@
+{
+    "packages": {
+        "bangpound/angularjs-bundle": {
+            "dev-master": {
+                "name": "bangpound/angularjs-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/angularjs-bundle.git",
+                    "reference": "2ebf3ed1af97a3a081d1921beeb88279a2a6d794"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/angularjs-bundle/zipball/2ebf3ed1af97a3a081d1921beeb88279a2a6d794",
+                    "reference": "2ebf3ed1af97a3a081d1921beeb88279a2a6d794",
+                    "shasum": ""
+                },
+                "require": {
+                    "sp/bower-bundle": "~0.11"
+                },
+                "time": "2014-09-01 17:42:08",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Bangpound\\Bundle\\AngularJsBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "AngularJS Symfony bundle",
+                "support": {
+                    "source": "https://github.com/bangpound/angularjs-bundle/tree/master",
+                    "issues": "https://github.com/bangpound/angularjs-bundle/issues"
+                }
+            }
+        },
+        "bangpound/castle-search-bundle": {
+            "dev-master": {
+                "name": "bangpound/castle-search-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/R-Shief/castle-search-bundle.git",
+                    "reference": "fc171b5314266bf0ce5ac7e21c56d50d54e90a57"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/R-Shief/castle-search-bundle/zipball/fc171b5314266bf0ce5ac7e21c56d50d54e90a57",
+                    "reference": "fc171b5314266bf0ce5ac7e21c56d50d54e90a57",
+                    "shasum": ""
+                },
+                "require": {
+                    "bangpound/angularjs-bundle": "1.0.*@dev"
+                },
+                "time": "2014-09-20 23:01:13",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Bangpound\\Bundle\\CastleSearchBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Angular UI search for Castle.",
+                "support": {
+                    "source": "https://github.com/R-Shief/castle-search-bundle/tree/master",
+                    "issues": "https://github.com/R-Shief/castle-search-bundle/issues"
+                }
+            }
+        },
+        "bangpound/corpwatch-data-bundle": {
+            "dev-master": {
+                "name": "bangpound/corpwatch-data-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Bangpound/CorpWatch/DataBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/CorpWatchDataBundle.git",
+                    "reference": "72dc5e068307fa6a3db39acb769601e0709676a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/CorpWatchDataBundle/zipball/72dc5e068307fa6a3db39acb769601e0709676a8",
+                    "reference": "72dc5e068307fa6a3db39acb769601e0709676a8",
+                    "shasum": ""
+                },
+                "time": "2013-08-10 04:01:20",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Bangpound\\CorpWatch\\DataBundle\\": ""
+                    }
+                },
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "CorpWatch data bundle",
+                "support": {
+                    "source": "https://github.com/bangpound/CorpWatchDataBundle/tree/master",
+                    "issues": "https://github.com/bangpound/CorpWatchDataBundle/issues"
+                }
+            }
+        },
+        "bangpound/guzzle-proxy-silex-extension": {
+            "dev-master": {
+                "name": "bangpound/guzzle-proxy-silex-extension",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/guzzle-proxy-silex-extension.git",
+                    "reference": "30994252fca0c860fde5444f77fa854030944ae8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/guzzle-proxy-silex-extension/zipball/30994252fca0c860fde5444f77fa854030944ae8",
+                    "reference": "30994252fca0c860fde5444f77fa854030944ae8",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "~3.7"
+                },
+                "time": "2013-09-20 19:06:48",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Bangpound\\Guzzle\\Proxy\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Guzzle proxy provider for Silex",
+                "support": {
+                    "source": "https://github.com/bangpound/guzzle-proxy-silex-extension/tree/master",
+                    "issues": "https://github.com/bangpound/guzzle-proxy-silex-extension/issues"
+                }
+            }
+        },
+        "bangpound/satellizer-bundle": {
+            "dev-master": {
+                "name": "bangpound/satellizer-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/satellizer-bundle.git",
+                    "reference": "eda0f7c346742fb3650475917829ef6216301674"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/satellizer-bundle/zipball/eda0f7c346742fb3650475917829ef6216301674",
+                    "reference": "eda0f7c346742fb3650475917829ef6216301674",
+                    "shasum": ""
+                },
+                "require": {
+                    "sp/bower-bundle": "~0.11"
+                },
+                "time": "2014-09-01 17:55:13",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Bangpound\\Bundle\\SatellizerBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Satellizer Symfony bundle",
+                "support": {
+                    "source": "https://github.com/bangpound/satellizer-bundle/tree/master",
+                    "issues": "https://github.com/bangpound/satellizer-bundle/issues"
+                }
+            }
+        },
+        "bangpound/twitter-data-bundle": {
+            "dev-master": {
+                "name": "bangpound/twitter-data-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Bangpound/Twitter/DataBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/TwitterDataBundle.git",
+                    "reference": "1a9165ae5d1b5e7368ab2459a7e9a68785d198aa"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/TwitterDataBundle/zipball/1a9165ae5d1b5e7368ab2459a7e9a68785d198aa",
+                    "reference": "1a9165ae5d1b5e7368ab2459a7e9a68785d198aa",
+                    "shasum": ""
+                },
+                "require": {
+                    "jms/serializer-bundle": "dev-master",
+                    "sonata-project/admin-bundle": "dev-master"
+                },
+                "time": "2013-08-07 23:03:07",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Bangpound\\Twitter\\DataBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Tweet entities and admin controllers",
+                "support": {
+                    "source": "https://github.com/bangpound/TwitterDataBundle/tree/master",
+                    "issues": "https://github.com/bangpound/TwitterDataBundle/issues"
+                }
+            }
+        },
+        "bangpound/twitter-rest-bundle": {
+            "dev-master": {
+                "name": "bangpound/twitter-rest-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Bangpound/Twitter/RestBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/TwitterRestBundle.git",
+                    "reference": "94d93b36015df8a4f2c4ff2d5e3bf7db47fb146b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/TwitterRestBundle/zipball/94d93b36015df8a4f2c4ff2d5e3bf7db47fb146b",
+                    "reference": "94d93b36015df8a4f2c4ff2d5e3bf7db47fb146b",
+                    "shasum": ""
+                },
+                "require": {
+                    "bangpound/twitter-data-bundle": "dev-master",
+                    "friendsofsymfony/rest-bundle": "dev-master"
+                },
+                "time": "2013-07-16 10:11:36",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Bangpound\\Twitter\\RestBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Tweet REST controllers",
+                "support": {
+                    "source": "https://github.com/bangpound/TwitterRestBundle/tree/master",
+                    "issues": "https://github.com/bangpound/TwitterRestBundle/issues"
+                }
+            }
+        },
+        "doctrine/couchdb": {
+            "1.0.0-alpha1": {
+                "name": "doctrine/couchdb",
+                "version": "1.0.0-alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "9d20cf705b15269a793fd8e6a02e542e8f9e4ff7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/9d20cf705b15269a793fd8e6a02e542e8f9e4ff7",
+                    "reference": "9d20cf705b15269a793fd8e6a02e542e8f9e4ff7",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/common": "@stable",
+                    "php": ">=5.3.2"
+                },
+                "time": "2013-07-28 02:11:58",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\CouchDB": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/1.0.0-alpha1"
+                }
+            },
+            "dev-master": {
+                "name": "doctrine/couchdb",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "d83fb8d56c9308e88599d297ad6aeff74ca56962"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/d83fb8d56c9308e88599d297ad6aeff74ca56962",
+                    "reference": "d83fb8d56c9308e88599d297ad6aeff74ca56962",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/common": "@stable",
+                    "php": ">=5.3.2"
+                },
+                "time": "2014-05-08 08:51:51",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\CouchDB": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/master"
+                }
+            },
+            "dev-abstract-query": {
+                "name": "doctrine/couchdb",
+                "version": "dev-abstract-query",
+                "version_normalized": "dev-abstract-query",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "1bbf14143f34e962cee73188bd2d0d400ec2f701"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/1bbf14143f34e962cee73188bd2d0d400ec2f701",
+                    "reference": "1bbf14143f34e962cee73188bd2d0d400ec2f701",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/common": "@stable",
+                    "php": ">=5.3.2"
+                },
+                "time": "2014-08-24 08:10:32",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\CouchDB": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/abstract-query"
+                }
+            },
+            "dev-develop": {
+                "name": "doctrine/couchdb",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "63249a5627e250b9ba4f003ce9f0056d792f7e91"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/63249a5627e250b9ba4f003ce9f0056d792f7e91",
+                    "reference": "63249a5627e250b9ba4f003ce9f0056d792f7e91",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/common": "@stable",
+                    "php": ">=5.3.2"
+                },
+                "time": "2014-08-24 08:13:28",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\CouchDB": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/develop"
+                }
+            }
+        },
+        "doctrine/couchdb-odm-bundle": {
+            "dev-design-document-config": {
+                "name": "doctrine/couchdb-odm-bundle",
+                "version": "dev-design-document-config",
+                "version_normalized": "dev-design-document-config",
+                "target-dir": "Doctrine/Bundle/CouchDBBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
+                    "reference": "7ae735b4d970d431bafdebf879a054a0aefea4c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/7ae735b4d970d431bafdebf879a054a0aefea4c0",
+                    "reference": "7ae735b4d970d431bafdebf879a054a0aefea4c0",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/couchdb": "@dev",
+                    "doctrine/couchdb-odm": "@dev",
+                    "php": ">=5.3.2",
+                    "symfony/doctrine-bridge": "~2.0",
+                    "symfony/framework-bundle": "~2.0"
+                },
+                "time": "2014-09-03 06:40:47",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\Bundle\\CouchDBBundle": ""
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "Symfony2 Doctrine CouchDB Bundle",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence",
+                    "symfony"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/design-document-config"
+                }
+            },
+            "dev-develop": {
+                "name": "doctrine/couchdb-odm-bundle",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "target-dir": "Doctrine/Bundle/CouchDBBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
+                    "reference": "7ae735b4d970d431bafdebf879a054a0aefea4c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/7ae735b4d970d431bafdebf879a054a0aefea4c0",
+                    "reference": "7ae735b4d970d431bafdebf879a054a0aefea4c0",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/couchdb": "@dev",
+                    "doctrine/couchdb-odm": "@dev",
+                    "php": ">=5.3.2",
+                    "symfony/doctrine-bridge": "~2.0",
+                    "symfony/framework-bundle": "~2.0"
+                },
+                "time": "2014-09-03 06:40:47",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\Bundle\\CouchDBBundle": ""
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "Symfony2 Doctrine CouchDB Bundle",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence",
+                    "symfony"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/design-document-config"
+                }
+            }
+        },
+        "robotsnowfall/enum": {
+            "dev-master": {
+                "name": "robotsnowfall/enum",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/enum.git",
+                    "reference": "ab7b4a3badbf023f2f1b5b7642fcc0deb707954c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/enum/zipball/ab7b4a3badbf023f2f1b5b7642fcc0deb707954c",
+                    "reference": "ab7b4a3badbf023f2f1b5b7642fcc0deb707954c",
+                    "shasum": ""
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "3.7.*"
+                },
+                "time": "2012-11-16 16:56:42",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "RobotSnowfall": "src/"
+                    }
+                },
+                "license": [
+                    "BSD"
+                ],
+                "authors": [
+                    {
+                        "name": "Doug Hurst",
+                        "email": "dalan.hurst@gmail.com",
+                        "homepage": "http://robotsnowfall.io/"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/enum/tree/master",
+                    "issues": "https://github.com/bangpound/enum/issues"
+                }
+            }
+        },
+        "rshief/kal3a-bundle": {
+            "dev-master": {
+                "name": "rshief/kal3a-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/R-Shief/kal3a-bundle.git",
+                    "reference": "4e9c9c512121ce4a7305d5f29603a94bf827864d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/R-Shief/kal3a-bundle/zipball/4e9c9c512121ce4a7305d5f29603a94bf827864d",
+                    "reference": "4e9c9c512121ce4a7305d5f29603a94bf827864d",
+                    "shasum": ""
+                },
+                "time": "2014-09-20 23:25:31",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Rshief\\Bundle\\Kal3aBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Kal3a modifications of Castle.",
+                "support": {
+                    "source": "https://github.com/R-Shief/kal3a-bundle/tree/master",
+                    "issues": "https://github.com/R-Shief/kal3a-bundle/issues"
+                }
+            }
+        },
+        "rshief/migration-bundle": {
+            "dev-master": {
+                "name": "rshief/migration-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/R-Shief/migration-bundle.git",
+                    "reference": "5775b57f7115ad2e563b5802f59f855394fa108d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/R-Shief/migration-bundle/zipball/5775b57f7115ad2e563b5802f59f855394fa108d",
+                    "reference": "5775b57f7115ad2e563b5802f59f855394fa108d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ddeboer/data-import": "~0.16",
+                    "ddeboer/data-import-bundle": "~0.1.0",
+                    "mjohnson/decoda": "~6.2.3"
+                },
+                "time": "2014-09-04 03:26:13",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Rshief\\Bundle\\MigrationBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Rshief migration into Kal3a.",
+                "support": {
+                    "source": "https://github.com/R-Shief/migration-bundle/tree/master",
+                    "issues": "https://github.com/R-Shief/migration-bundle/issues"
+                }
+            }
+        },
+        "rvdv/guzzle-clients": {
+            "dev-master": {
+                "name": "rvdv/guzzle-clients",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Guzzle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/guzzle-clients.git",
+                    "reference": "1a555035a2fe33c0301a3856b06cb47d173c1173"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/guzzle-clients/zipball/1a555035a2fe33c0301a3856b06cb47d173c1173",
+                    "reference": "1a555035a2fe33c0301a3856b06cb47d173c1173",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "3.5.*"
+                },
+                "time": "2013-06-09 03:40:24",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Guzzle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Robin van der Vleuten",
+                        "email": "robinvdvleuten@gmail.com"
+                    }
+                ],
+                "description": "Contains the configuration for multiple APIs in Guzzle.",
+                "homepage": "https://github.com/RobinvdVleuten/guzzle-clients",
+                "support": {
+                    "source": "https://github.com/bangpound/guzzle-clients/tree/master"
+                }
+            }
+        },
+        "ushios/elasticsearch-bundle": {
+            "0.0.1": {
+                "name": "ushios/elasticsearch-bundle",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "target-dir": "Ushios/Bundle/ElasticSearchBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/elasticsearch-bundle-1.git",
+                    "reference": "4524370dc59c24b53636ca57f39f66ecdb93e89c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/elasticsearch-bundle-1/zipball/4524370dc59c24b53636ca57f39f66ecdb93e89c",
+                    "reference": "4524370dc59c24b53636ca57f39f66ecdb93e89c",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "~0.4",
+                    "php": ">=5.3.2",
+                    "symfony/monolog-bundle": "2.3.*",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-10-30 14:42:08",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ushios\\Bundle\\ElasticSearchBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ushio Shugo",
+                        "email": "ushio.s@gmail.com"
+                    }
+                ],
+                "description": "Symfony ElasticSearchBundle",
+                "homepage": "https://github.com/ushios/elasticsearch-bundle",
+                "keywords": [
+                    "elasticsearch"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/0.0.1"
+                }
+            },
+            "dev-master": {
+                "name": "ushios/elasticsearch-bundle",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "target-dir": "Ushios/Bundle/ElasticSearchBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/elasticsearch-bundle-1.git",
+                    "reference": "4524370dc59c24b53636ca57f39f66ecdb93e89c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/elasticsearch-bundle-1/zipball/4524370dc59c24b53636ca57f39f66ecdb93e89c",
+                    "reference": "4524370dc59c24b53636ca57f39f66ecdb93e89c",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "~0.4",
+                    "php": ">=5.3.2",
+                    "symfony/monolog-bundle": "2.3.*",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-10-30 14:42:08",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ushios\\Bundle\\ElasticSearchBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ushio Shugo",
+                        "email": "ushio.s@gmail.com"
+                    }
+                ],
+                "description": "Symfony ElasticSearchBundle",
+                "homepage": "https://github.com/ushios/elasticsearch-bundle",
+                "keywords": [
+                    "elasticsearch"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/0.0.1"
+                }
+            },
+            "dev-develop": {
+                "name": "ushios/elasticsearch-bundle",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "target-dir": "Ushios/Bundle/ElasticSearchBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/elasticsearch-bundle-1.git",
+                    "reference": "5be45b15295ae3108c99f61ddf847d45ee86b407"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/elasticsearch-bundle-1/zipball/5be45b15295ae3108c99f61ddf847d45ee86b407",
+                    "reference": "5be45b15295ae3108c99f61ddf847d45ee86b407",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "~1.0",
+                    "php": ">=5.3.2",
+                    "symfony/monolog-bundle": "~2.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2014-02-21 23:14:25",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ushios\\Bundle\\ElasticSearchBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ushio Shugo",
+                        "email": "ushio.s@gmail.com"
+                    }
+                ],
+                "description": "Symfony ElasticSearchBundle",
+                "homepage": "https://github.com/ushios/elasticsearch-bundle",
+                "keywords": [
+                    "elasticsearch"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/develop"
+                }
+            },
+            "dev-hotfix/fix-test": {
+                "name": "ushios/elasticsearch-bundle",
+                "version": "dev-hotfix/fix-test",
+                "version_normalized": "dev-hotfix/fix-test",
+                "target-dir": "Ushios/Bundle/ElasticSearchBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/elasticsearch-bundle-1.git",
+                    "reference": "03f2e587da5e9fc8fcf9257df168035baed97bda"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/elasticsearch-bundle-1/zipball/03f2e587da5e9fc8fcf9257df168035baed97bda",
+                    "reference": "03f2e587da5e9fc8fcf9257df168035baed97bda",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "~0.4",
+                    "php": ">=5.3.2",
+                    "symfony/monolog-bundle": "2.3.*",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-11-22 07:25:18",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ushios\\Bundle\\ElasticSearchBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ushio Shugo",
+                        "email": "ushio.s@gmail.com"
+                    }
+                ],
+                "description": "Symfony ElasticSearchBundle",
+                "homepage": "https://github.com/ushios/elasticsearch-bundle",
+                "keywords": [
+                    "elasticsearch"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/hotfix/fix-test"
+                }
+            },
+            "dev-hotfix/monolog": {
+                "name": "ushios/elasticsearch-bundle",
+                "version": "dev-hotfix/monolog",
+                "version_normalized": "dev-hotfix/monolog",
+                "target-dir": "Ushios/Bundle/ElasticSearchBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/elasticsearch-bundle-1.git",
+                    "reference": "66205252e645a2a2442e72fc17cbf3675e79b0d8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/elasticsearch-bundle-1/zipball/66205252e645a2a2442e72fc17cbf3675e79b0d8",
+                    "reference": "66205252e645a2a2442e72fc17cbf3675e79b0d8",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "~0.4",
+                    "php": ">=5.3.2",
+                    "symfony/monolog-bundle": "2.3.*",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-12-13 06:18:13",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ushios\\Bundle\\ElasticSearchBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ushio Shugo",
+                        "email": "ushio.s@gmail.com"
+                    }
+                ],
+                "description": "Symfony ElasticSearchBundle",
+                "homepage": "https://github.com/ushios/elasticsearch-bundle",
+                "keywords": [
+                    "elasticsearch"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/hotfix/monolog"
+                }
+            },
+            "dev-hotfix/monolog-bundle-dependency": {
+                "name": "ushios/elasticsearch-bundle",
+                "version": "dev-hotfix/monolog-bundle-dependency",
+                "version_normalized": "dev-hotfix/monolog-bundle-dependency",
+                "target-dir": "Ushios/Bundle/ElasticSearchBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/elasticsearch-bundle-1.git",
+                    "reference": "cffe812f87b03f5d8d3f76b7e525f1398131e87e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/elasticsearch-bundle-1/zipball/cffe812f87b03f5d8d3f76b7e525f1398131e87e",
+                    "reference": "cffe812f87b03f5d8d3f76b7e525f1398131e87e",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "~0.4",
+                    "php": ">=5.3.2",
+                    "symfony/monolog-bundle": "~2.3",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-11-22 17:13:52",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ushios\\Bundle\\ElasticSearchBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ushio Shugo",
+                        "email": "ushio.s@gmail.com"
+                    }
+                ],
+                "description": "Symfony ElasticSearchBundle",
+                "homepage": "https://github.com/ushios/elasticsearch-bundle",
+                "keywords": [
+                    "elasticsearch"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/hotfix/monolog-bundle-dependency"
+                }
+            },
+            "dev-hotfix/no-minimum-stability": {
+                "name": "ushios/elasticsearch-bundle",
+                "version": "dev-hotfix/no-minimum-stability",
+                "version_normalized": "dev-hotfix/no-minimum-stability",
+                "target-dir": "Ushios/Bundle/ElasticSearchBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/elasticsearch-bundle-1.git",
+                    "reference": "7a79f1a3341157b503e3b4920fd305d8fab0e172"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/elasticsearch-bundle-1/zipball/7a79f1a3341157b503e3b4920fd305d8fab0e172",
+                    "reference": "7a79f1a3341157b503e3b4920fd305d8fab0e172",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "~0.4",
+                    "php": ">=5.3.2",
+                    "symfony/monolog-bundle": "2.3.*",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-11-22 07:28:34",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ushios\\Bundle\\ElasticSearchBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ushio Shugo",
+                        "email": "ushio.s@gmail.com"
+                    }
+                ],
+                "description": "Symfony ElasticSearchBundle",
+                "homepage": "https://github.com/ushios/elasticsearch-bundle",
+                "keywords": [
+                    "elasticsearch"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/hotfix/no-minimum-stability"
+                }
+            },
+            "dev-hotfix/remove-boilerplate": {
+                "name": "ushios/elasticsearch-bundle",
+                "version": "dev-hotfix/remove-boilerplate",
+                "version_normalized": "dev-hotfix/remove-boilerplate",
+                "target-dir": "Ushios/Bundle/ElasticSearchBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/elasticsearch-bundle-1.git",
+                    "reference": "06a30324b979e2b08b4124b52056aa9ebcf5ad25"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/elasticsearch-bundle-1/zipball/06a30324b979e2b08b4124b52056aa9ebcf5ad25",
+                    "reference": "06a30324b979e2b08b4124b52056aa9ebcf5ad25",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "~0.4",
+                    "php": ">=5.3.2",
+                    "symfony/monolog-bundle": "2.3.*",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-11-21 22:56:16",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ushios\\Bundle\\ElasticSearchBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ushio Shugo",
+                        "email": "ushio.s@gmail.com"
+                    }
+                ],
+                "description": "Symfony ElasticSearchBundle",
+                "homepage": "https://github.com/ushios/elasticsearch-bundle",
+                "keywords": [
+                    "elasticsearch"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/hotfix/remove-boilerplate"
+                }
+            },
+            "dev-hotfix/reset-commands": {
+                "name": "ushios/elasticsearch-bundle",
+                "version": "dev-hotfix/reset-commands",
+                "version_normalized": "dev-hotfix/reset-commands",
+                "target-dir": "Ushios/Bundle/ElasticSearchBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/elasticsearch-bundle-1.git",
+                    "reference": "f3a6da5e5193730fd70778a12e68f3eba516a23a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/elasticsearch-bundle-1/zipball/f3a6da5e5193730fd70778a12e68f3eba516a23a",
+                    "reference": "f3a6da5e5193730fd70778a12e68f3eba516a23a",
+                    "shasum": ""
+                },
+                "require": {
+                    "elasticsearch/elasticsearch": "~0.4",
+                    "php": ">=5.3.2",
+                    "symfony/monolog-bundle": "2.3.*",
+                    "symfony/symfony": "2.*"
+                },
+                "time": "2013-12-03 08:55:41",
+                "type": "symfony-bundle",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Ushios\\Bundle\\ElasticSearchBundle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Ushio Shugo",
+                        "email": "ushio.s@gmail.com"
+                    }
+                ],
+                "description": "Symfony ElasticSearchBundle",
+                "homepage": "https://github.com/ushios/elasticsearch-bundle",
+                "keywords": [
+                    "elasticsearch"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/hotfix/reset-commands"
+                }
+            }
+        }
+    }
+}
