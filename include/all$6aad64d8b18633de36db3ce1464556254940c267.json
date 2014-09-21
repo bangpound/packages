@@ -55,18 +55,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/R-Shief/castle-search-bundle.git",
-                    "reference": "fc171b5314266bf0ce5ac7e21c56d50d54e90a57"
+                    "reference": "32994dd5614b2d1a5c5418d9b460141012a88ec0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/R-Shief/castle-search-bundle/zipball/fc171b5314266bf0ce5ac7e21c56d50d54e90a57",
-                    "reference": "fc171b5314266bf0ce5ac7e21c56d50d54e90a57",
+                    "url": "https://api.github.com/repos/R-Shief/castle-search-bundle/zipball/32994dd5614b2d1a5c5418d9b460141012a88ec0",
+                    "reference": "32994dd5614b2d1a5c5418d9b460141012a88ec0",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/angularjs-bundle": "1.0.*@dev"
                 },
-                "time": "2014-09-20 23:01:13",
+                "time": "2014-09-21 03:39:01",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -689,15 +689,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/R-Shief/kal3a-bundle.git",
-                    "reference": "4e9c9c512121ce4a7305d5f29603a94bf827864d"
+                    "reference": "cad500001d18b37dfce46ab57b83889b137051e6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/R-Shief/kal3a-bundle/zipball/4e9c9c512121ce4a7305d5f29603a94bf827864d",
-                    "reference": "4e9c9c512121ce4a7305d5f29603a94bf827864d",
+                    "url": "https://api.github.com/repos/R-Shief/kal3a-bundle/zipball/cad500001d18b37dfce46ab57b83889b137051e6",
+                    "reference": "cad500001d18b37dfce46ab57b83889b137051e6",
                     "shasum": ""
                 },
-                "time": "2014-09-20 23:25:31",
+                "time": "2014-09-21 04:40:49",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
