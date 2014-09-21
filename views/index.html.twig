@@ -4,36 +4,44 @@
 <head>
     <meta charset="utf-8" />
     <meta name="robots" content="noindex,nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ name }} Composer Repository</title>
+    <link rel="stylesheet" href="vendor/pure/base.css" />
+    <link rel="stylesheet" href="vendor/pure/forms.css" />
+    <link rel="stylesheet" href="vendor/pure/grids.css" />
+    <link rel="stylesheet" href="vendor/pure/tables.css" />
     <style type="text/css">
         {% include 'styles.css' %}
     </style>
 </head>
 <body ng-app="satisBrowser">
 
-<div id="doc" class="yui-t7" ng-controller="mainController">
-    <div id="hd">
+<div class="pure-g" ng-controller="mainController">
+    <div class="pure-u-1-1">
         <h1>{{ name }} Composer Repository</h1>
         {% if description %}
             <p>{{ description | raw }}</p>
         {% endif %}
-        <div id="lastupdate">
+        <p>
             Last updated: <time datetime="{{ "now" | date(constant('\DateTime::ISO8601')) }}">{% verbatim %}{{ lastUpdate|date }}{% endverbatim %}</time>
-        </div>
-    </div>
-    <div id="bd">
-        <div class="yui-g">
-            Adding the repository to <em>composer.json</em>:
-            <pre><code>{{ repository | json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_UNESCAPED_SLASHES')) | raw }}</code></pre>
-
-            Filter by package name:
+        </p>
+        <form class="pure-form">
+            <label for="search">
+                Filter by package name:
+            </label>
             <input type="text" id="search" ng-model="search.highest.name" autocomplete="off" autofocus />
+        </form>
+    </div>
+    <div class="pure-u-1-1">
+            <h2>Adding the repository to <em>composer.json</em>:</h2>
+            <pre><code>{{ repository | json_encode(constant('JSON_PRETTY_PRINT') b-or constant('JSON_UNESCAPED_SLASHES')) | raw }}</code></pre>
+    </div>
 
             {% verbatim %}
-            <div ng-repeat="(name, package) in packages | filter:search">
+            <div class="pure-u-1-1" ng-repeat="(name, package) in packages | filter:search">
                 <h3 id="{{ package.highest.name }}">{{ package.highest.name }}</h3>
                 <p ng-if="package.highest.description">{{ package.highest.description }}</p>
-                <table>
+                <table class="pure-table">
                     <tr ng-if="package.highest.homepage">
                         <th>Homepage</th>
                         <td><a href="{{ package.highest.homepage }}">{{ package.highest.homepage }}</a></td>
@@ -79,9 +87,7 @@
                 </table>
             </div>
             {% endverbatim %}
-        </div>
-    </div>
-    <div id="ft">
+    <div class="pure-u-1-1">
         <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> {{ constant('Composer\\Satis\\Satis::VERSION') }} - Last updated:  {{ "now"|date(constant('\DateTime::ISO8601')) }}</small></p>
     </div>
 </div>
