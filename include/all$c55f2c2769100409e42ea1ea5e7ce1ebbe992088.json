@@ -184,18 +184,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/invoker-bundle.git",
-                    "reference": "0e0bdb08088b71a85daf6316aec1a638cba037a2"
+                    "reference": "9d2f3a291a610d60f03fd23d6054260c7b219849"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/invoker-bundle/zipball/0e0bdb08088b71a85daf6316aec1a638cba037a2",
-                    "reference": "0e0bdb08088b71a85daf6316aec1a638cba037a2",
+                    "url": "https://api.github.com/repos/bangpound/invoker-bundle/zipball/9d2f3a291a610d60f03fd23d6054260c7b219849",
+                    "reference": "9d2f3a291a610d60f03fd23d6054260c7b219849",
                     "shasum": ""
                 },
                 "require": {
                     "react/child-process": "~0.5@dev"
                 },
-                "time": "2014-09-22 00:21:44",
+                "time": "2014-09-22 00:29:15",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -204,7 +204,7 @@
                 },
                 "autoload": {
                     "psr-4": {
-                        "Bangpound\\Bundle\\InvokerBundle\\": "src/"
+                        "Bangpound\\Bundle\\InvokerBundle\\": ""
                     }
                 },
                 "license": [
