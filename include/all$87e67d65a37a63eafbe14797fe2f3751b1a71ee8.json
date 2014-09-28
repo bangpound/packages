@@ -689,15 +689,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/R-Shief/kal3a-bundle.git",
-                    "reference": "e2ca8947f95080b88ce72bbf63dbfbadff207095"
+                    "reference": "7bcef95cc11072300d22665b0b6ed601f86558c8"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/R-Shief/kal3a-bundle/zipball/e2ca8947f95080b88ce72bbf63dbfbadff207095",
-                    "reference": "e2ca8947f95080b88ce72bbf63dbfbadff207095",
+                    "url": "https://api.github.com/repos/R-Shief/kal3a-bundle/zipball/7bcef95cc11072300d22665b0b6ed601f86558c8",
+                    "reference": "7bcef95cc11072300d22665b0b6ed601f86558c8",
                     "shasum": ""
                 },
-                "time": "2014-09-21 17:01:08",
+                "time": "2014-09-28 18:51:30",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
