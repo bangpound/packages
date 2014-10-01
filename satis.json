@@ -59,6 +59,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/bangpound/enum.git"
+        },
+        {
+            "type": "vcs",
+            "url": "http://git.drupal.org/sandbox/bangpound/2347985.git"
         }
     ]
 }
