@@ -639,6 +639,38 @@
                 }
             }
         },
+        "drupal/composer": {
+            "dev-8.x-1.x": {
+                "name": "drupal/composer",
+                "version": "dev-8.x-1.x",
+                "version_normalized": "dev-8.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "http://git.drupal.org/sandbox/bangpound/2347985.git",
+                    "reference": "6bdf1abe04833ecc8770983e8d16666175651cc3"
+                },
+                "require": {
+                    "composer/composer": "~1.0@dev"
+                },
+                "time": "2014-10-01 03:20:44",
+                "type": "drupal-drush",
+                "license": [
+                    "GPL-2.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Rob Loach",
+                        "homepage": "http://robloach.net"
+                    }
+                ],
+                "description": "Use Composer, the PHP package management system, from Drush.",
+                "homepage": "http://drupal.org/project/composer",
+                "support": {
+                    "issues": "http://drupal.org/project/issues/composer",
+                    "source": "http://drupalcode.org/project/composer.git"
+                }
+            }
+        },
         "robotsnowfall/enum": {
             "dev-master": {
                 "name": "robotsnowfall/enum",
