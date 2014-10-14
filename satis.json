@@ -63,6 +63,10 @@
         {
             "type": "vcs",
             "url": "http://git.drupal.org/sandbox/bangpound/2347985.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/yml2pimple.git"
         }
     ]
 }
