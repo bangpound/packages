@@ -55,18 +55,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/R-Shief/castle-search-bundle.git",
-                    "reference": "777616acfbe6e73a47a6f4b824f6b4cc61ad5589"
+                    "reference": "b6d6d696934bb7fd930378a2ac972c6383d0f296"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/R-Shief/castle-search-bundle/zipball/777616acfbe6e73a47a6f4b824f6b4cc61ad5589",
-                    "reference": "777616acfbe6e73a47a6f4b824f6b4cc61ad5589",
+                    "url": "https://api.github.com/repos/R-Shief/castle-search-bundle/zipball/b6d6d696934bb7fd930378a2ac972c6383d0f296",
+                    "reference": "b6d6d696934bb7fd930378a2ac972c6383d0f296",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/angularjs-bundle": "1.0.*@dev"
                 },
-                "time": "2014-09-28 06:33:43",
+                "time": "2014-10-14 04:05:37",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -668,6 +668,60 @@
                 "support": {
                     "issues": "http://drupal.org/project/issues/composer",
                     "source": "http://drupalcode.org/project/composer.git"
+                }
+            }
+        },
+        "gonzalo123/yaml2pimple": {
+            "dev-master": {
+                "name": "gonzalo123/yaml2pimple",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/yml2pimple.git",
+                    "reference": "75c1d2230574af68062717a2e05d54fc2c798e96"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/yml2pimple/zipball/75c1d2230574af68062717a2e05d54fc2c798e96",
+                    "reference": "75c1d2230574af68062717a2e05d54fc2c798e96",
+                    "shasum": ""
+                },
+                "require": {
+                    "pimple/pimple": "3.0.*@dev",
+                    "symfony/config": "2.6.*@dev",
+                    "symfony/yaml": "2.6.*@dev"
+                },
+                "require-dev": {
+                    "phpunit/php-code-coverage": "3.0.*@dev",
+                    "phpunit/phpunit": "4.4.*@dev",
+                    "phpunit/phpunit-mock-objects": "2.3.*@dev",
+                    "sebastian/global-state": "1.0.*@dev"
+                },
+                "time": "2014-10-02 18:35:54",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "G\\Yaml2Pimple\\": "src/G/Yaml2Pimple"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gonzalo Ayuso",
+                        "email": "gonzalo123@gmail.com"
+                    }
+                ],
+                "description": "Build a Pimple/Container from a config file",
+                "keywords": [
+                    "container",
+                    "dependency injection",
+                    "pimple"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/yml2pimple/tree/master"
                 }
             }
         },
