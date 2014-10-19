@@ -67,6 +67,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/bangpound/yml2pimple.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/protosilex-pimple.git"
         }
     ]
 }
