@@ -55,18 +55,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/R-Shief/castle-search-bundle.git",
-                    "reference": "e1f9a353ee3e882e40dabe50d16e1efdf04d1940"
+                    "reference": "fe342c1548e701af2d389d933cbfbd9a87fd3854"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/R-Shief/castle-search-bundle/zipball/e1f9a353ee3e882e40dabe50d16e1efdf04d1940",
-                    "reference": "e1f9a353ee3e882e40dabe50d16e1efdf04d1940",
+                    "url": "https://api.github.com/repos/R-Shief/castle-search-bundle/zipball/fe342c1548e701af2d389d933cbfbd9a87fd3854",
+                    "reference": "fe342c1548e701af2d389d933cbfbd9a87fd3854",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/angularjs-bundle": "1.0.*@dev"
                 },
-                "time": "2014-10-21 23:57:28",
+                "time": "2014-10-22 00:38:08",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
