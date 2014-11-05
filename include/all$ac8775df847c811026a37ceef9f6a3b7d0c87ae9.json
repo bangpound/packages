@@ -691,12 +691,12 @@
                 "source": {
                     "type": "git",
                     "url": "http://git.drupal.org/sandbox/bangpound/2347985.git",
-                    "reference": "6bdf1abe04833ecc8770983e8d16666175651cc3"
+                    "reference": "16c5ebd5df38ba2b31103d20ab64da64fccb263c"
                 },
                 "require": {
                     "composer/composer": "~1.0@dev"
                 },
-                "time": "2014-10-01 03:20:44",
+                "time": "2014-11-02 19:59:19",
                 "type": "drupal-drush",
                 "license": [
                     "GPL-2.0"
