@@ -568,6 +568,48 @@
                 }
             }
         },
+        "bangpound/styles-module": {
+            "dev-master": {
+                "name": "bangpound/styles-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundstyles.git",
+                    "reference": "bab48f45647a46131bf640ca26d6bf82074d898a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/bab48f45647a46131bf640ca26d6bf82074d898a",
+                    "reference": "bab48f45647a46131bf640ca26d6bf82074d898a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 03:52:52",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Styles module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundstyles/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundstyles/issues"
+                }
+            }
+        },
         "bangpound/twitter-data-bundle": {
             "dev-master": {
                 "name": "bangpound/twitter-data-bundle",
