@@ -1,5 +1,47 @@
 {
     "packages": {
+        "bangpound/analytics-module": {
+            "dev-master": {
+                "name": "bangpound/analytics-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundanalytics.git",
+                    "reference": "9156c00537b86dc1096bfc38acd2977f63e90e5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/9156c00537b86dc1096bfc38acd2977f63e90e5e",
+                    "reference": "9156c00537b86dc1096bfc38acd2977f63e90e5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:40:36",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Analytics module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
+                }
+            }
+        },
         "bangpound/angularjs-bundle": {
             "dev-master": {
                 "name": "bangpound/angularjs-bundle",
@@ -134,6 +176,90 @@
                 }
             }
         },
+        "bangpound/efq-module": {
+            "dev-master": {
+                "name": "bangpound/efq-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundefq.git",
+                    "reference": "8041130cd06717874ab3867422ba45e50565192a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundefq/zipball/8041130cd06717874ab3867422ba45e50565192a",
+                    "reference": "8041130cd06717874ab3867422ba45e50565192a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:36:43",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "EFQ module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundefq/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundefq/issues"
+                }
+            }
+        },
+        "bangpound/entity-module": {
+            "dev-7.x-1.x": {
+                "name": "bangpound/entity-module",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundentity.git",
+                    "reference": "3f6535c563debe4cd1183c5c9b4e3d84ce997229"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/3f6535c563debe4cd1183c5c9b4e3d84ce997229",
+                    "reference": "3f6535c563debe4cd1183c5c9b4e3d84ce997229",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:44:14",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-7.x-1.x": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Entity module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundentity/tree/7.x-1.x",
+                    "issues": "https://github.com/bangpound/bangpoundentity/issues"
+                }
+            }
+        },
         "bangpound/guzzle-proxy-silex-extension": {
             "dev-master": {
                 "name": "bangpound/guzzle-proxy-silex-extension",
@@ -173,6 +299,139 @@
                 "support": {
                     "source": "https://github.com/bangpound/guzzle-proxy-silex-extension/tree/master",
                     "issues": "https://github.com/bangpound/guzzle-proxy-silex-extension/issues"
+                }
+            }
+        },
+        "bangpound/media-module": {
+            "dev-master": {
+                "name": "bangpound/media-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundmedia.git",
+                    "reference": "af502b6ce3fa0dc0685b12e082352663536f1e9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/af502b6ce3fa0dc0685b12e082352663536f1e9c",
+                    "reference": "af502b6ce3fa0dc0685b12e082352663536f1e9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "symfony/property-access": "~2.0"
+                },
+                "time": "2014-11-23 02:44:38",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Drupal\\bangpoundmedia\\": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Media module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundmedia/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundmedia/issues"
+                }
+            }
+        },
+        "bangpound/panels-module": {
+            "dev-master": {
+                "name": "bangpound/panels-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpanels.git",
+                    "reference": "167ed1cd40467493ee580a293d5a8afd2bcb811c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/167ed1cd40467493ee580a293d5a8afd2bcb811c",
+                    "reference": "167ed1cd40467493ee580a293d5a8afd2bcb811c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "symfony/property-access": "~2.0"
+                },
+                "time": "2014-11-23 02:40:51",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Panels module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundpanels/issues"
+                }
+            }
+        },
+        "bangpound/podcast-module": {
+            "dev-master": {
+                "name": "bangpound/podcast-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpodcast.git",
+                    "reference": "10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6",
+                    "reference": "10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:38:41",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Podcast module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpodcast/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundpodcast/issues"
                 }
             }
         },
@@ -267,6 +526,48 @@
                 }
             }
         },
+        "bangpound/share-module": {
+            "dev-master": {
+                "name": "bangpound/share-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundshare.git",
+                    "reference": "715bc602d1adfefa0c16e57a030bd19779eee11c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/715bc602d1adfefa0c16e57a030bd19779eee11c",
+                    "reference": "715bc602d1adfefa0c16e57a030bd19779eee11c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:38:57",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Share module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundshare/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundshare/issues"
+                }
+            }
+        },
         "bangpound/twitter-data-bundle": {
             "dev-master": {
                 "name": "bangpound/twitter-data-bundle",
@@ -352,6 +653,48 @@
                 "support": {
                     "source": "https://github.com/bangpound/TwitterRestBundle/tree/master",
                     "issues": "https://github.com/bangpound/TwitterRestBundle/issues"
+                }
+            }
+        },
+        "bangpound/views-module": {
+            "dev-master": {
+                "name": "bangpound/views-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundviews.git",
+                    "reference": "7ec652c1a34d6ed0386ee424997b84ec4c837136"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundviews/zipball/7ec652c1a34d6ed0386ee424997b84ec4c837136",
+                    "reference": "7ec652c1a34d6ed0386ee424997b84ec4c837136",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:45:49",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Views module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundviews/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundviews/issues"
                 }
             }
         },
@@ -1419,561 +1762,6 @@
                 ],
                 "support": {
                     "source": "https://github.com/bangpound/elasticsearch-bundle-1/tree/hotfix/reset-commands"
-                }
-            }
-        },
-        "yohang/finite": {
-            "1.0.0": {
-                "name": "yohang/finite",
-                "version": "1.0.0",
-                "version_normalized": "1.0.0.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bangpound/Finite.git",
-                    "reference": "9326fe8b0bec8bd22742fbb6d30e71cc5b329910"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/Finite/zipball/9326fe8b0bec8bd22742fbb6d30e71cc5b329910",
-                    "reference": "9326fe8b0bec8bd22742fbb6d30e71cc5b329910",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0",
-                    "symfony/event-dispatcher": ">=2.1,<3.0",
-                    "symfony/options-resolver": ">=2.1,<3.0"
-                },
-                "require-dev": {
-                    "pdepend/pdepend": "*",
-                    "phpmd/phpmd": "*",
-                    "phpunit/phpunit": ">=3.7,<4.0",
-                    "pimple/pimple": ">=1.0,<2.0",
-                    "symfony/dependency-injection": ">=2.1,<3.0",
-                    "symfony/framework-bundle": ">=2.1,<3.0",
-                    "symfony/security": ">=2.1,<3.0",
-                    "twig/twig": ">=1.13,<2.0"
-                },
-                "suggest": {
-                    "pimple/pimple": "Needed for use with PimpleFactory",
-                    "symfony/dependency-injection": "Needed for use with Symfony DependencyInjection Factory",
-                    "symfony/event-dispatcher": "Needed for using ListenableStateMachine",
-                    "symfony/security": "Needed for using SecurityAwareStateMachine",
-                    "symfony/yaml": "Yaml allows you to define your State graph in YAML"
-                },
-                "time": "2014-02-28 14:43:52",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Finite": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Yohan Giarelli",
-                        "email": "yohan@giarel.li",
-                        "homepage": "http://yohan.giarel.li"
-                    }
-                ],
-                "description": "A simple PHP5.3+ Finite State Machine",
-                "homepage": "https://github.com/yohang/Finite",
-                "keywords": [
-                    "statemachine"
-                ],
-                "support": {
-                    "source": "https://github.com/bangpound/Finite/tree/1.0.0"
-                }
-            },
-            "1.0.0-BETA1": {
-                "name": "yohang/finite",
-                "version": "1.0.0-BETA1",
-                "version_normalized": "1.0.0.0-beta1",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bangpound/Finite.git",
-                    "reference": "090a11e288af603efc398ce26546fdf3f190d4f3"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/Finite/zipball/090a11e288af603efc398ce26546fdf3f190d4f3",
-                    "reference": "090a11e288af603efc398ce26546fdf3f190d4f3",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0"
-                },
-                "require-dev": {
-                    "pdepend/pdepend": "*",
-                    "phpmd/phpmd": "*",
-                    "phpunit/phpunit": "*",
-                    "pimple/pimple": "*",
-                    "symfony/dependency-injection": "*",
-                    "symfony/event-dispatcher": "*",
-                    "symfony/framework-bundle": "*",
-                    "symfony/security": "*",
-                    "twig/twig": "*"
-                },
-                "suggest": {
-                    "pimple/pimple": "Needed for use with PimpleFactory",
-                    "symfony/dependency-injection": "Needed for use with Symfony DependencyInjection Factory",
-                    "symfony/event-dispatcher": "Needed for using ListenableStateMachine",
-                    "symfony/security": "Needed for using SecurityAwareStateMachine",
-                    "symfony/yaml": "Yaml allows you to define your State graph in YAML"
-                },
-                "time": "2013-03-04 19:05:57",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Finite": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Yohan Giarelli",
-                        "email": "yohan@giarel.li",
-                        "homepage": "http://yohan.giarel.li"
-                    }
-                ],
-                "description": "A simple PHP5.3+ Finite State Machine",
-                "homepage": "https://github.com/yohang/Finite",
-                "keywords": [
-                    "statemachine"
-                ],
-                "support": {
-                    "source": "https://github.com/bangpound/Finite/tree/1.0.0-BETA1"
-                }
-            },
-            "1.0.0-BETA2": {
-                "name": "yohang/finite",
-                "version": "1.0.0-BETA2",
-                "version_normalized": "1.0.0.0-beta2",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bangpound/Finite.git",
-                    "reference": "379edf7c215e819a20fe407b3cfbb8cd6134d218"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/Finite/zipball/379edf7c215e819a20fe407b3cfbb8cd6134d218",
-                    "reference": "379edf7c215e819a20fe407b3cfbb8cd6134d218",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0",
-                    "symfony/event-dispatcher": ">=2.1,<3.0",
-                    "symfony/options-resolver": ">=2.1,<3.0"
-                },
-                "require-dev": {
-                    "pdepend/pdepend": "*",
-                    "phpmd/phpmd": "*",
-                    "phpunit/phpunit": ">=3.7,<4.0",
-                    "pimple/pimple": ">=1.0,<2.0",
-                    "symfony/dependency-injection": ">=2.1,<3.0",
-                    "symfony/framework-bundle": ">=2.1,<3.0",
-                    "symfony/security": ">=2.1,<3.0",
-                    "twig/twig": ">=1.13,<2.0"
-                },
-                "suggest": {
-                    "pimple/pimple": "Needed for use with PimpleFactory",
-                    "symfony/dependency-injection": "Needed for use with Symfony DependencyInjection Factory",
-                    "symfony/event-dispatcher": "Needed for using ListenableStateMachine",
-                    "symfony/security": "Needed for using SecurityAwareStateMachine",
-                    "symfony/yaml": "Yaml allows you to define your State graph in YAML"
-                },
-                "time": "2013-11-11 21:07:04",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Finite": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Yohan Giarelli",
-                        "email": "yohan@giarel.li",
-                        "homepage": "http://yohan.giarel.li"
-                    }
-                ],
-                "description": "A simple PHP5.3+ Finite State Machine",
-                "homepage": "https://github.com/yohang/Finite",
-                "keywords": [
-                    "statemachine"
-                ],
-                "support": {
-                    "source": "https://github.com/bangpound/Finite/tree/1.0.0-BETA2"
-                }
-            },
-            "1.0.1": {
-                "name": "yohang/finite",
-                "version": "1.0.1",
-                "version_normalized": "1.0.1.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bangpound/Finite.git",
-                    "reference": "b4e4151b8c6917762d73d107ff47d25a73ee4173"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/Finite/zipball/b4e4151b8c6917762d73d107ff47d25a73ee4173",
-                    "reference": "b4e4151b8c6917762d73d107ff47d25a73ee4173",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0",
-                    "symfony/event-dispatcher": ">=2.1,<3.0",
-                    "symfony/options-resolver": ">=2.1,<3.0"
-                },
-                "require-dev": {
-                    "pdepend/pdepend": "*",
-                    "phpmd/phpmd": "*",
-                    "phpunit/phpunit": ">=3.7,<4.0",
-                    "pimple/pimple": ">=1.0,<2.0",
-                    "symfony/dependency-injection": ">=2.1,<3.0",
-                    "symfony/framework-bundle": ">=2.1,<3.0",
-                    "symfony/security": ">=2.1,<3.0",
-                    "twig/twig": ">=1.13,<2.0"
-                },
-                "suggest": {
-                    "pimple/pimple": "Needed for use with PimpleFactory",
-                    "symfony/dependency-injection": "Needed for use with Symfony DependencyInjection Factory",
-                    "symfony/event-dispatcher": "Needed for using ListenableStateMachine",
-                    "symfony/security": "Needed for using SecurityAwareStateMachine",
-                    "symfony/yaml": "Yaml allows you to define your State graph in YAML"
-                },
-                "time": "2014-03-18 13:12:05",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Finite": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Yohan Giarelli",
-                        "email": "yohan@giarel.li",
-                        "homepage": "http://yohan.giarel.li"
-                    }
-                ],
-                "description": "A simple PHP5.3+ Finite State Machine",
-                "homepage": "https://github.com/yohang/Finite",
-                "keywords": [
-                    "statemachine"
-                ],
-                "support": {
-                    "source": "https://github.com/bangpound/Finite/tree/1.0.1"
-                }
-            },
-            "1.0.2": {
-                "name": "yohang/finite",
-                "version": "1.0.2",
-                "version_normalized": "1.0.2.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bangpound/Finite.git",
-                    "reference": "b74de2e2ddddddffe68ed0877afedd96885d3596"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/Finite/zipball/b74de2e2ddddddffe68ed0877afedd96885d3596",
-                    "reference": "b74de2e2ddddddffe68ed0877afedd96885d3596",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0",
-                    "symfony/event-dispatcher": ">=2.1,<3.0",
-                    "symfony/options-resolver": ">=2.1,<3.0"
-                },
-                "require-dev": {
-                    "pdepend/pdepend": "*",
-                    "phpmd/phpmd": "*",
-                    "phpunit/phpunit": ">=3.7,<4.0",
-                    "pimple/pimple": ">=1.0,<2.0",
-                    "symfony/dependency-injection": ">=2.1,<3.0",
-                    "symfony/framework-bundle": ">=2.1,<3.0",
-                    "symfony/security": ">=2.1,<3.0",
-                    "twig/twig": ">=1.13,<2.0"
-                },
-                "suggest": {
-                    "pimple/pimple": "Needed for use with PimpleFactory",
-                    "symfony/dependency-injection": "Needed for use with Symfony DependencyInjection Factory",
-                    "symfony/security": "Needed for using SecurityAwareStateMachine",
-                    "symfony/yaml": "Yaml allows you to define your State graph in YAML"
-                },
-                "time": "2014-04-30 09:52:03",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Finite": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Yohan Giarelli",
-                        "email": "yohan@giarel.li",
-                        "homepage": "http://yohan.giarel.li"
-                    }
-                ],
-                "description": "A simple PHP5.3+ Finite State Machine",
-                "homepage": "https://github.com/yohang/Finite",
-                "keywords": [
-                    "statemachine"
-                ],
-                "support": {
-                    "source": "https://github.com/bangpound/Finite/tree/1.0.2"
-                }
-            },
-            "1.0.3": {
-                "name": "yohang/finite",
-                "version": "1.0.3",
-                "version_normalized": "1.0.3.0",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bangpound/Finite.git",
-                    "reference": "252476cdb20e6f9d93e588db1c1ec73d1619400d"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/Finite/zipball/252476cdb20e6f9d93e588db1c1ec73d1619400d",
-                    "reference": "252476cdb20e6f9d93e588db1c1ec73d1619400d",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.0",
-                    "symfony/event-dispatcher": ">=2.1,<3.0",
-                    "symfony/options-resolver": ">=2.1,<3.0"
-                },
-                "require-dev": {
-                    "pdepend/pdepend": "*",
-                    "phpmd/phpmd": "*",
-                    "phpunit/phpunit": ">=3.7,<4.0",
-                    "pimple/pimple": ">=1.0,<2.0",
-                    "symfony/dependency-injection": ">=2.1,<3.0",
-                    "symfony/framework-bundle": ">=2.1,<3.0",
-                    "symfony/security": ">=2.1,<3.0",
-                    "twig/twig": ">=1.13,<2.0"
-                },
-                "suggest": {
-                    "pimple/pimple": "Needed for use with PimpleFactory",
-                    "symfony/dependency-injection": "Needed for use with Symfony DependencyInjection Factory",
-                    "symfony/security": "Needed for using SecurityAwareStateMachine",
-                    "symfony/yaml": "Yaml allows you to define your State graph in YAML"
-                },
-                "time": "2014-05-05 08:08:03",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.0.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Finite": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Yohan Giarelli",
-                        "email": "yohan@giarel.li",
-                        "homepage": "http://yohan.giarel.li"
-                    }
-                ],
-                "description": "A simple PHP5.3+ Finite State Machine",
-                "homepage": "https://github.com/yohang/Finite",
-                "keywords": [
-                    "statemachine"
-                ],
-                "support": {
-                    "source": "https://github.com/bangpound/Finite/tree/1.0.3"
-                }
-            },
-            "dev-develop": {
-                "name": "yohang/finite",
-                "version": "dev-develop",
-                "version_normalized": "dev-develop",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bangpound/Finite.git",
-                    "reference": "9122c26fc0d5aa03220f086e180bbb09652ad4ef"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/Finite/zipball/9122c26fc0d5aa03220f086e180bbb09652ad4ef",
-                    "reference": "9122c26fc0d5aa03220f086e180bbb09652ad4ef",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.3",
-                    "symfony/event-dispatcher": "~2.1",
-                    "symfony/options-resolver": "~2.1",
-                    "symfony/property-access": "~2.3"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "~3.7",
-                    "pimple/pimple": "~1.0",
-                    "symfony/dependency-injection": "~2.1",
-                    "symfony/framework-bundle": "~2.1",
-                    "symfony/security": "~2.1",
-                    "twig/twig": "~1.13"
-                },
-                "suggest": {
-                    "pimple/pimple": "Needed for use with PimpleFactory",
-                    "symfony/security": "Needed for using SecurityAwareStateMachine",
-                    "symfony/yaml": "Yaml allows you to define your State graph in YAML"
-                },
-                "time": "2014-10-25 05:57:46",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.1.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Finite": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Yohan Giarelli",
-                        "email": "yohan@giarel.li",
-                        "homepage": "http://yohan.giarel.li"
-                    },
-                    {
-                        "name": "Finite contributors",
-                        "homepage": "https://github.com/yohang/Finite/graphs/contributors"
-                    }
-                ],
-                "description": "A simple PHP5.3+ Finite State Machine",
-                "homepage": "https://github.com/yohang/Finite",
-                "keywords": [
-                    "bundle",
-                    "state",
-                    "statemachine",
-                    "symfony",
-                    "transition",
-                    "workflow"
-                ],
-                "support": {
-                    "source": "https://github.com/bangpound/Finite/tree/develop"
-                }
-            },
-            "dev-feature/transition-classes": {
-                "name": "yohang/finite",
-                "version": "dev-feature/transition-classes",
-                "version_normalized": "dev-feature/transition-classes",
-                "source": {
-                    "type": "git",
-                    "url": "https://github.com/bangpound/Finite.git",
-                    "reference": "9122c26fc0d5aa03220f086e180bbb09652ad4ef"
-                },
-                "dist": {
-                    "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/Finite/zipball/9122c26fc0d5aa03220f086e180bbb09652ad4ef",
-                    "reference": "9122c26fc0d5aa03220f086e180bbb09652ad4ef",
-                    "shasum": ""
-                },
-                "require": {
-                    "php": ">=5.3.3",
-                    "symfony/event-dispatcher": "~2.1",
-                    "symfony/options-resolver": "~2.1",
-                    "symfony/property-access": "~2.3"
-                },
-                "require-dev": {
-                    "phpunit/phpunit": "~3.7",
-                    "pimple/pimple": "~1.0",
-                    "symfony/dependency-injection": "~2.1",
-                    "symfony/framework-bundle": "~2.1",
-                    "symfony/security": "~2.1",
-                    "twig/twig": "~1.13"
-                },
-                "suggest": {
-                    "pimple/pimple": "Needed for use with PimpleFactory",
-                    "symfony/security": "Needed for using SecurityAwareStateMachine",
-                    "symfony/yaml": "Yaml allows you to define your State graph in YAML"
-                },
-                "time": "2014-10-25 05:57:46",
-                "type": "library",
-                "extra": {
-                    "branch-alias": {
-                        "dev-master": "1.1.x-dev"
-                    }
-                },
-                "autoload": {
-                    "psr-0": {
-                        "Finite": "src/"
-                    }
-                },
-                "license": [
-                    "MIT"
-                ],
-                "authors": [
-                    {
-                        "name": "Yohan Giarelli",
-                        "email": "yohan@giarel.li",
-                        "homepage": "http://yohan.giarel.li"
-                    },
-                    {
-                        "name": "Finite contributors",
-                        "homepage": "https://github.com/yohang/Finite/graphs/contributors"
-                    }
-                ],
-                "description": "A simple PHP5.3+ Finite State Machine",
-                "homepage": "https://github.com/yohang/Finite",
-                "keywords": [
-                    "bundle",
-                    "state",
-                    "statemachine",
-                    "symfony",
-                    "transition",
-                    "workflow"
-                ],
-                "support": {
-                    "source": "https://github.com/bangpound/Finite/tree/develop"
                 }
             }
         }
