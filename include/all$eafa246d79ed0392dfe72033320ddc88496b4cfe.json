@@ -1,6 +1,46 @@
 {
     "packages": {
         "bangpound/analytics-module": {
+            "7.0.0": {
+                "name": "bangpound/analytics-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundanalytics.git",
+                    "reference": "9156c00537b86dc1096bfc38acd2977f63e90e5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/9156c00537b86dc1096bfc38acd2977f63e90e5e",
+                    "reference": "9156c00537b86dc1096bfc38acd2977f63e90e5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:40:36",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Analytics module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
+                }
+            },
             "dev-master": {
                 "name": "bangpound/analytics-module",
                 "version": "dev-master",
@@ -177,6 +217,46 @@
             }
         },
         "bangpound/efq-module": {
+            "7.0.0": {
+                "name": "bangpound/efq-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundefq.git",
+                    "reference": "8041130cd06717874ab3867422ba45e50565192a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundefq/zipball/8041130cd06717874ab3867422ba45e50565192a",
+                    "reference": "8041130cd06717874ab3867422ba45e50565192a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:36:43",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "EFQ module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundefq/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundefq/issues"
+                }
+            },
             "dev-master": {
                 "name": "bangpound/efq-module",
                 "version": "dev-master",
@@ -219,6 +299,46 @@
             }
         },
         "bangpound/entity-module": {
+            "7.0.0": {
+                "name": "bangpound/entity-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundentity.git",
+                    "reference": "3f6535c563debe4cd1183c5c9b4e3d84ce997229"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/3f6535c563debe4cd1183c5c9b4e3d84ce997229",
+                    "reference": "3f6535c563debe4cd1183c5c9b4e3d84ce997229",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:44:14",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-7.x-1.x": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Entity module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundentity/tree/7.x-1.x",
+                    "issues": "https://github.com/bangpound/bangpoundentity/issues"
+                }
+            },
             "dev-7.x-1.x": {
                 "name": "bangpound/entity-module",
                 "version": "dev-7.x-1.x",
@@ -303,6 +423,52 @@
             }
         },
         "bangpound/media-module": {
+            "7.0.0": {
+                "name": "bangpound/media-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundmedia.git",
+                    "reference": "af502b6ce3fa0dc0685b12e082352663536f1e9c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/af502b6ce3fa0dc0685b12e082352663536f1e9c",
+                    "reference": "af502b6ce3fa0dc0685b12e082352663536f1e9c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "symfony/property-access": "~2.0"
+                },
+                "time": "2014-11-23 02:44:38",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Drupal\\bangpoundmedia\\": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Media module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundmedia/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundmedia/issues"
+                }
+            },
             "dev-master": {
                 "name": "bangpound/media-module",
                 "version": "dev-master",
@@ -351,6 +517,47 @@
             }
         },
         "bangpound/panels-module": {
+            "7.0.0": {
+                "name": "bangpound/panels-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpanels.git",
+                    "reference": "167ed1cd40467493ee580a293d5a8afd2bcb811c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/167ed1cd40467493ee580a293d5a8afd2bcb811c",
+                    "reference": "167ed1cd40467493ee580a293d5a8afd2bcb811c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "symfony/property-access": "~2.0"
+                },
+                "time": "2014-11-23 02:40:51",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Panels module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundpanels/issues"
+                }
+            },
             "dev-master": {
                 "name": "bangpound/panels-module",
                 "version": "dev-master",
@@ -394,6 +601,46 @@
             }
         },
         "bangpound/podcast-module": {
+            "7.0.0": {
+                "name": "bangpound/podcast-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpodcast.git",
+                    "reference": "10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6",
+                    "reference": "10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:38:41",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Podcast module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpodcast/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundpodcast/issues"
+                }
+            },
             "dev-master": {
                 "name": "bangpound/podcast-module",
                 "version": "dev-master",
@@ -527,6 +774,46 @@
             }
         },
         "bangpound/share-module": {
+            "7.0.0": {
+                "name": "bangpound/share-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundshare.git",
+                    "reference": "715bc602d1adfefa0c16e57a030bd19779eee11c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/715bc602d1adfefa0c16e57a030bd19779eee11c",
+                    "reference": "715bc602d1adfefa0c16e57a030bd19779eee11c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:38:57",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Share module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundshare/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundshare/issues"
+                }
+            },
             "dev-master": {
                 "name": "bangpound/share-module",
                 "version": "dev-master",
@@ -569,6 +856,46 @@
             }
         },
         "bangpound/styles-module": {
+            "7.0.0": {
+                "name": "bangpound/styles-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundstyles.git",
+                    "reference": "bab48f45647a46131bf640ca26d6bf82074d898a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/bab48f45647a46131bf640ca26d6bf82074d898a",
+                    "reference": "bab48f45647a46131bf640ca26d6bf82074d898a",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 03:52:52",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Styles module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundstyles/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundstyles/issues"
+                }
+            },
             "dev-master": {
                 "name": "bangpound/styles-module",
                 "version": "dev-master",
@@ -699,6 +1026,46 @@
             }
         },
         "bangpound/views-module": {
+            "7.0.0": {
+                "name": "bangpound/views-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundviews.git",
+                    "reference": "7ec652c1a34d6ed0386ee424997b84ec4c837136"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundviews/zipball/7ec652c1a34d6ed0386ee424997b84ec4c837136",
+                    "reference": "7ec652c1a34d6ed0386ee424997b84ec4c837136",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23 02:45:49",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Views module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundviews/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundviews/issues"
+                }
+            },
             "dev-master": {
                 "name": "bangpound/views-module",
                 "version": "dev-master",
