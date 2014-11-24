@@ -41,25 +41,25 @@
                     "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
                 }
             },
-            "dev-master": {
+            "7.0.1": {
                 "name": "bangpound/analytics-module",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "7.0.1",
+                "version_normalized": "7.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundanalytics.git",
-                    "reference": "9156c00537b86dc1096bfc38acd2977f63e90e5e"
+                    "reference": "c3f35349cf3bba873f91484a9536787e6fdf379f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/9156c00537b86dc1096bfc38acd2977f63e90e5e",
-                    "reference": "9156c00537b86dc1096bfc38acd2977f63e90e5e",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/c3f35349cf3bba873f91484a9536787e6fdf379f",
+                    "reference": "c3f35349cf3bba873f91484a9536787e6fdf379f",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:40:36",
+                "time": "2014-11-24 06:41:55",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -77,7 +77,47 @@
                 ],
                 "description": "Analytics module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/master",
+                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/7.0.1",
+                    "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bangpound/analytics-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundanalytics.git",
+                    "reference": "c3f35349cf3bba873f91484a9536787e6fdf379f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/c3f35349cf3bba873f91484a9536787e6fdf379f",
+                    "reference": "c3f35349cf3bba873f91484a9536787e6fdf379f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-24 06:41:55",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Analytics module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/7.0.1",
                     "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
                 }
             }
@@ -469,26 +509,26 @@
                     "issues": "https://github.com/bangpound/bangpoundmedia/issues"
                 }
             },
-            "dev-master": {
+            "7.0.1": {
                 "name": "bangpound/media-module",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "7.0.1",
+                "version_normalized": "7.0.1.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundmedia.git",
-                    "reference": "af502b6ce3fa0dc0685b12e082352663536f1e9c"
+                    "reference": "75f7ba463a37dafab81ee6e888f95979ed28153e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/af502b6ce3fa0dc0685b12e082352663536f1e9c",
-                    "reference": "af502b6ce3fa0dc0685b12e082352663536f1e9c",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/75f7ba463a37dafab81ee6e888f95979ed28153e",
+                    "reference": "75f7ba463a37dafab81ee6e888f95979ed28153e",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2014-11-23 02:44:38",
+                "time": "2014-11-24 06:38:33",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -511,7 +551,53 @@
                 ],
                 "description": "Media module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundmedia/tree/master",
+                    "source": "https://github.com/bangpound/bangpoundmedia/tree/7.0.1",
+                    "issues": "https://github.com/bangpound/bangpoundmedia/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bangpound/media-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundmedia.git",
+                    "reference": "75f7ba463a37dafab81ee6e888f95979ed28153e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/75f7ba463a37dafab81ee6e888f95979ed28153e",
+                    "reference": "75f7ba463a37dafab81ee6e888f95979ed28153e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "symfony/property-access": "~2.0"
+                },
+                "time": "2014-11-24 06:38:33",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Drupal\\bangpoundmedia\\": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Media module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundmedia/tree/7.0.1",
                     "issues": "https://github.com/bangpound/bangpoundmedia/issues"
                 }
             }
