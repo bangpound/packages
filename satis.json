@@ -42,10 +42,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/bangpound/elasticsearch-bundle-1.git"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/R-Shief/castle-search-bundle.git"
         },
         {
@@ -71,6 +67,42 @@
         {
             "type": "vcs",
             "url": "https://github.com/bangpound/protosilex-pimple.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/bangpoundanalytics"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/bangpoundefq"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/bangpoundentity"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/bangpoundmedia"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/bangpoundpanels"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/bangpoundpodcast"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/bangpoundshare"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/bangpoundstyles"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/bangpoundviews"
         }
     ]
 }
