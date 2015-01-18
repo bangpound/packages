@@ -562,19 +562,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundmedia.git",
-                    "reference": "dc2319951e647a74f8145a7bb6876ebf8126937c"
+                    "reference": "b643a9318e4a9b14385ae93e115bb5d6b1935d83"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/dc2319951e647a74f8145a7bb6876ebf8126937c",
-                    "reference": "dc2319951e647a74f8145a7bb6876ebf8126937c",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/b643a9318e4a9b14385ae93e115bb5d6b1935d83",
+                    "reference": "b643a9318e4a9b14385ae93e115bb5d6b1935d83",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2015-01-09 05:28:48",
+                "time": "2015-01-18 15:43:06",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
