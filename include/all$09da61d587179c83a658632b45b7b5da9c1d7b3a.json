@@ -734,18 +734,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundpodcast.git",
-                    "reference": "10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6"
+                    "reference": "4066def09476cab02b6ea28d67c8158f765bb5eb"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6",
-                    "reference": "10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/4066def09476cab02b6ea28d67c8158f765bb5eb",
+                    "reference": "4066def09476cab02b6ea28d67c8158f765bb5eb",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:38:41",
+                "time": "2015-02-28 20:44:42",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
