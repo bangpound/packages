@@ -16,14 +16,14 @@
 </head>
 <body ng-app="satisBrowser">
 
-<div class="pure-g" ng-controller="mainController">
+<div class="pure-g" ng-controller="mainController as main">
     <div class="pure-u-1-1">
         <h1>{{ name }} Composer Repository</h1>
         {% if description %}
             <p>{{ description | raw }}</p>
         {% endif %}
         <p>
-            Last updated: <time datetime="{{ "now" | date(constant('\DateTime::ISO8601')) }}">{% verbatim %}{{ lastUpdate|date }}{% endverbatim %}</time>
+            Last updated: <time datetime="{{ "now" | date(constant('\DateTime::ISO8601')) }}">{% verbatim %}{{ main.lastUpdate|date }}{% endverbatim %}</time>
         </p>
         <form class="pure-form">
             <label for="search">
@@ -38,7 +38,7 @@
     </div>
 
     {% verbatim %}
-    <div class="pure-u-1-1" ng-repeat="(name, package) in packages | filter:search">
+    <div class="pure-u-1-1" ng-repeat="(name, package) in main.packages | filter:search">
         <h3 id="{{ package.highest.name }}">{{ package.highest.name }}</h3>
         <p ng-if="package.highest.description">{{ package.highest.description }}</p>
         <table class="pure-table">
@@ -80,7 +80,7 @@
                 <th>Required by</th>
                 <td>
                     <ul>
-                        <li ng-repeat="dependency in dependencies[name]"><a href="#{{ dependency }}">{{ dependency }}</a></li>
+                        <li ng-repeat="dependency in main.dependencies[name]"><a href="#{{ dependency }}">{{ dependency }}</a></li>
                     </ul>
                 </td>
             </tr>
@@ -104,10 +104,10 @@
                 return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
             }
         })
-        .controller('mainController', ['$scope', 'packages', 'dependencies', 'lastUpdate', function ($scope, packages, dependencies, lastUpdate) {
-            $scope.packages = packages;
-            $scope.dependencies = dependencies;
-            $scope.lastUpdate = lastUpdate;
+        .controller('mainController', ['packages', 'dependencies', 'lastUpdate', function (packages, dependencies, lastUpdate) {
+            this.packages = packages;
+            this.dependencies = dependencies;
+            this.lastUpdate = lastUpdate;
         }]);
 </script>
 </body>
