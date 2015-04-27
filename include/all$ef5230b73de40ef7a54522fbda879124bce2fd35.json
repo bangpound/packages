@@ -989,18 +989,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundstyles.git",
-                    "reference": "bab48f45647a46131bf640ca26d6bf82074d898a"
+                    "reference": "7e67723e98d0c82bb27f6b2439430b9902dfc822"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/bab48f45647a46131bf640ca26d6bf82074d898a",
-                    "reference": "bab48f45647a46131bf640ca26d6bf82074d898a",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/7e67723e98d0c82bb27f6b2439430b9902dfc822",
+                    "reference": "7e67723e98d0c82bb27f6b2439430b9902dfc822",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 03:52:52",
+                "time": "2015-03-21 23:59:31",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
