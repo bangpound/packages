@@ -555,6 +555,52 @@
                     "issues": "https://github.com/bangpound/bangpoundmedia/issues"
                 }
             },
+            "7.0.2": {
+                "name": "bangpound/media-module",
+                "version": "7.0.2",
+                "version_normalized": "7.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundmedia.git",
+                    "reference": "b643a9318e4a9b14385ae93e115bb5d6b1935d83"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/b643a9318e4a9b14385ae93e115bb5d6b1935d83",
+                    "reference": "b643a9318e4a9b14385ae93e115bb5d6b1935d83",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "symfony/property-access": "~2.0"
+                },
+                "time": "2015-01-18 15:43:06",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Drupal\\bangpoundmedia\\": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Media module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundmedia/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundmedia/issues"
+                }
+            },
             "dev-master": {
                 "name": "bangpound/media-module",
                 "version": "dev-master",
