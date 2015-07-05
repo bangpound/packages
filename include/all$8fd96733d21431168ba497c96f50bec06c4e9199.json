@@ -88,18 +88,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundanalytics.git",
-                    "reference": "c3f35349cf3bba873f91484a9536787e6fdf379f"
+                    "reference": "f1b4967006072f1ee3ae38957aa4b2deaa1cae57"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/c3f35349cf3bba873f91484a9536787e6fdf379f",
-                    "reference": "c3f35349cf3bba873f91484a9536787e6fdf379f",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/f1b4967006072f1ee3ae38957aa4b2deaa1cae57",
+                    "reference": "f1b4967006072f1ee3ae38957aa4b2deaa1cae57",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-24 06:41:55",
+                "time": "2015-06-14 18:46:39",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -117,7 +117,7 @@
                 ],
                 "description": "Analytics module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/7.0.1",
+                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/master",
                     "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
                 }
             }
@@ -304,18 +304,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundefq.git",
-                    "reference": "8041130cd06717874ab3867422ba45e50565192a"
+                    "reference": "c44e01c49b804761ff0aa6b80334a2412d44c956"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundefq/zipball/8041130cd06717874ab3867422ba45e50565192a",
-                    "reference": "8041130cd06717874ab3867422ba45e50565192a",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundefq/zipball/c44e01c49b804761ff0aa6b80334a2412d44c956",
+                    "reference": "c44e01c49b804761ff0aa6b80334a2412d44c956",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:36:43",
+                "time": "2015-06-11 05:58:38",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
