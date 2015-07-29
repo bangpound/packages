@@ -103,6 +103,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/bangpound/bangpoundviews"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/URLResolver.php"
         }
     ]
 }
