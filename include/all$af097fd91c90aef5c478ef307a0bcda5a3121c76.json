@@ -88,23 +88,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundanalytics.git",
-                    "reference": "f1b4967006072f1ee3ae38957aa4b2deaa1cae57"
+                    "reference": "1f087b6416c04f2882226c639b5dcb23c091385d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/f1b4967006072f1ee3ae38957aa4b2deaa1cae57",
-                    "reference": "f1b4967006072f1ee3ae38957aa4b2deaa1cae57",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/1f087b6416c04f2882226c639b5dcb23c091385d",
+                    "reference": "1f087b6416c04f2882226c639b5dcb23c091385d",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-06-14 18:46:39",
+                "time": "2015-07-30 06:56:50",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-master": "7.0.x-dev"
-                    }
+                    },
+                    "installer-name": "bangpoundanalytics"
                 },
                 "license": [
                     "GPL-2.0+"
@@ -304,23 +305,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundefq.git",
-                    "reference": "c44e01c49b804761ff0aa6b80334a2412d44c956"
+                    "reference": "712e972e530244c599ffdcf659825d8f589a02ad"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundefq/zipball/c44e01c49b804761ff0aa6b80334a2412d44c956",
-                    "reference": "c44e01c49b804761ff0aa6b80334a2412d44c956",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundefq/zipball/712e972e530244c599ffdcf659825d8f589a02ad",
+                    "reference": "712e972e530244c599ffdcf659825d8f589a02ad",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-06-11 05:58:38",
+                "time": "2015-07-30 06:57:23",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-master": "7.0.x-dev"
-                    }
+                    },
+                    "installer-name": "bangpoundefq"
                 },
                 "license": [
                     "GPL-2.0+"
@@ -426,23 +428,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundentity.git",
-                    "reference": "3efc201a68fbf05b2b6d8f14baf1dc05cc0e5dbf"
+                    "reference": "16df1afa388de4e7d066473fda08fde6d26b6d4b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/3efc201a68fbf05b2b6d8f14baf1dc05cc0e5dbf",
-                    "reference": "3efc201a68fbf05b2b6d8f14baf1dc05cc0e5dbf",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/16df1afa388de4e7d066473fda08fde6d26b6d4b",
+                    "reference": "16df1afa388de4e7d066473fda08fde6d26b6d4b",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-06-07 01:50:11",
+                "time": "2015-07-30 06:58:05",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-7.x-1.x": "7.0.x-dev"
-                    }
+                    },
+                    "installer-name": "bangpoundentity"
                 },
                 "license": [
                     "GPL-2.0+"
@@ -455,7 +458,7 @@
                 ],
                 "description": "Entity module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundentity/tree/7.0.1",
+                    "source": "https://github.com/bangpound/bangpoundentity/tree/7.x-1.x",
                     "issues": "https://github.com/bangpound/bangpoundentity/issues"
                 }
             }
@@ -694,24 +697,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundmedia.git",
-                    "reference": "da19312c8d60603d9f83ad3608370937261daef0"
+                    "reference": "3f2f762ae600a16d3124cad3f0ec30e310120c70"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/da19312c8d60603d9f83ad3608370937261daef0",
-                    "reference": "da19312c8d60603d9f83ad3608370937261daef0",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/3f2f762ae600a16d3124cad3f0ec30e310120c70",
+                    "reference": "3f2f762ae600a16d3124cad3f0ec30e310120c70",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2015-06-07 23:31:50",
+                "time": "2015-07-30 07:00:50",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-master": "7.0.x-dev"
-                    }
+                    },
+                    "installer-name": "bangpoundmedia"
                 },
                 "autoload": {
                     "psr-0": {
@@ -729,7 +733,7 @@
                 ],
                 "description": "Media module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundmedia/tree/7.0.3",
+                    "source": "https://github.com/bangpound/bangpoundmedia/tree/master",
                     "issues": "https://github.com/bangpound/bangpoundmedia/issues"
                 }
             }
@@ -824,24 +828,25 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundpanels.git",
-                    "reference": "3db5b17aa4afc05c0d896a2e406073361e4aac10"
+                    "reference": "617f65cb634b758b0bfa1c89a4bd99774868c0b7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/3db5b17aa4afc05c0d896a2e406073361e4aac10",
-                    "reference": "3db5b17aa4afc05c0d896a2e406073361e4aac10",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/617f65cb634b758b0bfa1c89a4bd99774868c0b7",
+                    "reference": "617f65cb634b758b0bfa1c89a4bd99774868c0b7",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2015-06-08 17:58:40",
+                "time": "2015-07-30 06:58:30",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-master": "7.0.x-dev"
-                    }
+                    },
+                    "installer-name": "bangpoundpanels"
                 },
                 "license": [
                     "GPL-2.0+"
@@ -854,7 +859,7 @@
                 ],
                 "description": "Panels module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundpanels/tree/7.0.1",
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/master",
                     "issues": "https://github.com/bangpound/bangpoundpanels/issues"
                 }
             }
@@ -907,23 +912,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundpodcast.git",
-                    "reference": "4066def09476cab02b6ea28d67c8158f765bb5eb"
+                    "reference": "bf0d1f83dd23516c76af3080beaa7fa106fb7a98"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/4066def09476cab02b6ea28d67c8158f765bb5eb",
-                    "reference": "4066def09476cab02b6ea28d67c8158f765bb5eb",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/bf0d1f83dd23516c76af3080beaa7fa106fb7a98",
+                    "reference": "bf0d1f83dd23516c76af3080beaa7fa106fb7a98",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-02-28 20:44:42",
+                "time": "2015-07-30 06:58:42",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-master": "7.0.x-dev"
-                    }
+                    },
+                    "installer-name": "bangpoundpodcast"
                 },
                 "license": [
                     "GPL-2.0+"
@@ -1160,23 +1166,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundshare.git",
-                    "reference": "2a18dc5d3c7e620914f02f29977b546d3de6e5c4"
+                    "reference": "02aee19794b1f1e190ea150cf0fa26a19df3769c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/2a18dc5d3c7e620914f02f29977b546d3de6e5c4",
-                    "reference": "2a18dc5d3c7e620914f02f29977b546d3de6e5c4",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/02aee19794b1f1e190ea150cf0fa26a19df3769c",
+                    "reference": "02aee19794b1f1e190ea150cf0fa26a19df3769c",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-06-07 06:32:19",
+                "time": "2015-07-30 06:59:31",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-master": "7.0.x-dev"
-                    }
+                    },
+                    "installer-name": "bangpoundshare"
                 },
                 "license": [
                     "GPL-2.0+"
@@ -1189,7 +1196,7 @@
                 ],
                 "description": "Share module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundshare/tree/7.0.2",
+                    "source": "https://github.com/bangpound/bangpoundshare/tree/master",
                     "issues": "https://github.com/bangpound/bangpoundshare/issues"
                 }
             }
@@ -1322,23 +1329,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundstyles.git",
-                    "reference": "67caba9d74c0d8bad1426826d79be59fba2209b7"
+                    "reference": "ae516c1c1b8c2d8d55fc632d3e239b3c08d7bd40"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/67caba9d74c0d8bad1426826d79be59fba2209b7",
-                    "reference": "67caba9d74c0d8bad1426826d79be59fba2209b7",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/ae516c1c1b8c2d8d55fc632d3e239b3c08d7bd40",
+                    "reference": "ae516c1c1b8c2d8d55fc632d3e239b3c08d7bd40",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-05-04 04:37:04",
+                "time": "2015-07-30 07:00:05",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-master": "7.0.x-dev"
-                    }
+                    },
+                    "installer-name": "bangpoundstyles"
                 },
                 "license": [
                     "GPL-2.0+"
@@ -1351,7 +1359,7 @@
                 ],
                 "description": "Styles module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundstyles/tree/7.0.2",
+                    "source": "https://github.com/bangpound/bangpoundstyles/tree/master",
                     "issues": "https://github.com/bangpound/bangpoundstyles/issues"
                 }
             }
@@ -1538,23 +1546,24 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundviews.git",
-                    "reference": "7ec652c1a34d6ed0386ee424997b84ec4c837136"
+                    "reference": "2c820d6cc963827f3cff4a0d7406ad153a039b4d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundviews/zipball/7ec652c1a34d6ed0386ee424997b84ec4c837136",
-                    "reference": "7ec652c1a34d6ed0386ee424997b84ec4c837136",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundviews/zipball/2c820d6cc963827f3cff4a0d7406ad153a039b4d",
+                    "reference": "2c820d6cc963827f3cff4a0d7406ad153a039b4d",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:45:49",
+                "time": "2015-07-30 06:59:44",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
                         "dev-master": "7.0.x-dev"
-                    }
+                    },
+                    "installer-name": "bangpoundviews"
                 },
                 "license": [
                     "GPL-2.0+"
@@ -1567,7 +1576,7 @@
                 ],
                 "description": "Views module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundviews/tree/7.0.0",
+                    "source": "https://github.com/bangpound/bangpoundviews/tree/master",
                     "issues": "https://github.com/bangpound/bangpoundviews/issues"
                 }
             }
