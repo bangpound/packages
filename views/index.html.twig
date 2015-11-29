@@ -92,36 +92,36 @@
     </div>
 </div>
 
-<script src="vendor/angularjs/angular.js"></script>
+<script src="vendor/angularjs/angular.min.js"></script>
 {% spaceless %}
 {% set normalizedPackages = [] %}
 {% for package in packages %}
     {% set normalizedVersions = [] %}
     {% for version in package.versions %}
         {% set normalizedVersion = {
-            'dist': {
-                'reference': version.distReference,
-                'type': version.distType,
-                'url': version.distUrl,
+            dist: {
+                reference: version.distReference,
+                type: version.distType,
+                url: version.distUrl,
             },
-            'source': {
-              'reference': version.sourceReference,
-              'url': version.sourceUrl,
+            source: {
+              reference: version.sourceReference,
+              url: version.sourceUrl,
             },
-            'version': version.prettyVersion,
+            version: version.prettyVersion,
         } %}
         {% set normalizedVersions = normalizedVersions | merge([normalizedVersion]) %}
     {% endfor %}
     {% set normalizedPackage = {
-        'highest': {
-            'name': package.highest.name,
-            'description': package.highest.description,
-            'homepage': package.highest.homepage,
-            'license': package.highest.license,
-            'authors': package.highest.authors,
-            'support': package.highest.support,
+        highest: {
+            name: package.highest.name,
+            description: package.highest.description,
+            homepage: package.highest.homepage,
+            license: package.highest.license,
+            authors: package.highest.authors,
+            support: package.highest.support,
         },
-        'versions': normalizedVersions,
+        versions: normalizedVersions,
     } %}
     {% set normalizedPackages = normalizedPackages | merge([normalizedPackage]) %}
 {% endfor %}
