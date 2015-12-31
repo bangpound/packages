@@ -1870,18 +1870,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundstyles.git",
-                    "reference": "07b12826d1cf0bbfecd84009a04121454027f669"
+                    "reference": "77911eb6ac8a97b4e9ee60279608c3a75475d448"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/07b12826d1cf0bbfecd84009a04121454027f669",
-                    "reference": "07b12826d1cf0bbfecd84009a04121454027f669",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/77911eb6ac8a97b4e9ee60279608c3a75475d448",
+                    "reference": "77911eb6ac8a97b4e9ee60279608c3a75475d448",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-11-21 23:47:56",
+                "time": "2015-12-26 18:38:07",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1900,7 +1900,7 @@
                 ],
                 "description": "Styles module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundstyles/tree/7.0.4",
+                    "source": "https://github.com/bangpound/bangpoundstyles/tree/master",
                     "issues": "https://github.com/bangpound/bangpoundstyles/issues"
                 }
             }
@@ -2225,19 +2225,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/couchdb-client.git",
-                    "reference": "d83fb8d56c9308e88599d297ad6aeff74ca56962"
+                    "reference": "4d3aa736649d12d1c65cfff6fa6b0e251de112b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/d83fb8d56c9308e88599d297ad6aeff74ca56962",
-                    "reference": "d83fb8d56c9308e88599d297ad6aeff74ca56962",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/4d3aa736649d12d1c65cfff6fa6b0e251de112b1",
+                    "reference": "4d3aa736649d12d1c65cfff6fa6b0e251de112b1",
                     "shasum": ""
                 },
                 "require": {
-                    "doctrine/common": "@stable",
-                    "php": ">=5.3.2"
+                    "php": ">=5.4"
                 },
-                "time": "2014-05-08 08:51:51",
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2015-12-07 20:27:17",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -2249,8 +2251,13 @@
                         "Doctrine\\CouchDB": "lib/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-0": {
+                        "Doctrine\\Tests": "tests/"
+                    }
+                },
                 "license": [
-                    "LGPL"
+                    "MIT"
                 ],
                 "authors": [
                     {
@@ -2269,7 +2276,7 @@
                     "persistence"
                 ],
                 "support": {
-                    "source": "https://github.com/bangpound/couchdb-client/tree/master"
+                    "source": "https://github.com/bangpound/couchdb-client/tree/develop"
                 }
             },
             "dev-abstract-query": {
@@ -2279,19 +2286,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/couchdb-client.git",
-                    "reference": "1bbf14143f34e962cee73188bd2d0d400ec2f701"
+                    "reference": "7e1ea6068cc6d72f21c8fb70034e4ac9172d37f2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/1bbf14143f34e962cee73188bd2d0d400ec2f701",
-                    "reference": "1bbf14143f34e962cee73188bd2d0d400ec2f701",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/7e1ea6068cc6d72f21c8fb70034e4ac9172d37f2",
+                    "reference": "7e1ea6068cc6d72f21c8fb70034e4ac9172d37f2",
                     "shasum": ""
                 },
                 "require": {
-                    "doctrine/common": "@stable",
-                    "php": ">=5.3.2"
+                    "php": ">=5.4"
                 },
-                "time": "2014-08-24 08:10:32",
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2015-12-31 23:33:07",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -2303,8 +2312,13 @@
                         "Doctrine\\CouchDB": "lib/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-0": {
+                        "Doctrine\\Tests": "tests/"
+                    }
+                },
                 "license": [
-                    "LGPL"
+                    "MIT"
                 ],
                 "authors": [
                     {
@@ -2333,19 +2347,21 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/couchdb-client.git",
-                    "reference": "63249a5627e250b9ba4f003ce9f0056d792f7e91"
+                    "reference": "4d3aa736649d12d1c65cfff6fa6b0e251de112b1"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/63249a5627e250b9ba4f003ce9f0056d792f7e91",
-                    "reference": "63249a5627e250b9ba4f003ce9f0056d792f7e91",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/4d3aa736649d12d1c65cfff6fa6b0e251de112b1",
+                    "reference": "4d3aa736649d12d1c65cfff6fa6b0e251de112b1",
                     "shasum": ""
                 },
                 "require": {
-                    "doctrine/common": "@stable",
-                    "php": ">=5.3.2"
+                    "php": ">=5.4"
                 },
-                "time": "2014-08-24 08:13:28",
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2015-12-07 20:27:17",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -2357,8 +2373,13 @@
                         "Doctrine\\CouchDB": "lib/"
                     }
                 },
+                "autoload-dev": {
+                    "psr-0": {
+                        "Doctrine\\Tests": "tests/"
+                    }
+                },
                 "license": [
-                    "LGPL"
+                    "MIT"
                 ],
                 "authors": [
                     {
