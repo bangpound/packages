@@ -219,18 +219,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/R-Shief/castle-search-bundle.git",
-                    "reference": "249398f31bef05fd4e703ebbff0986f9aea9e601"
+                    "reference": "56a30c1ea879d435b180b9920c73f869dfc6b6e6"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/R-Shief/castle-search-bundle/zipball/249398f31bef05fd4e703ebbff0986f9aea9e601",
-                    "reference": "249398f31bef05fd4e703ebbff0986f9aea9e601",
+                    "url": "https://api.github.com/repos/R-Shief/castle-search-bundle/zipball/56a30c1ea879d435b180b9920c73f869dfc6b6e6",
+                    "reference": "56a30c1ea879d435b180b9920c73f869dfc6b6e6",
                     "shasum": ""
                 },
-                "require": {
-                    "bangpound/angularjs-bundle": "1.0.*@dev"
-                },
-                "time": "2014-11-16 21:41:05",
+                "time": "2016-01-05 07:50:51",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -1863,25 +1860,25 @@
                     "issues": "https://github.com/bangpound/bangpoundstyles/issues"
                 }
             },
-            "dev-master": {
+            "7.0.5": {
                 "name": "bangpound/styles-module",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "7.0.5",
+                "version_normalized": "7.0.5.0",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundstyles.git",
-                    "reference": "77911eb6ac8a97b4e9ee60279608c3a75475d448"
+                    "reference": "195d1534509ac70c4f47d0d8594ecf60525a9f48"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/77911eb6ac8a97b4e9ee60279608c3a75475d448",
-                    "reference": "77911eb6ac8a97b4e9ee60279608c3a75475d448",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/195d1534509ac70c4f47d0d8594ecf60525a9f48",
+                    "reference": "195d1534509ac70c4f47d0d8594ecf60525a9f48",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-12-26 18:38:07",
+                "time": "2016-01-31 18:41:07",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1900,7 +1897,48 @@
                 ],
                 "description": "Styles module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundstyles/tree/master",
+                    "source": "https://github.com/bangpound/bangpoundstyles/tree/7.0.5",
+                    "issues": "https://github.com/bangpound/bangpoundstyles/issues"
+                }
+            },
+            "dev-master": {
+                "name": "bangpound/styles-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundstyles.git",
+                    "reference": "195d1534509ac70c4f47d0d8594ecf60525a9f48"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/195d1534509ac70c4f47d0d8594ecf60525a9f48",
+                    "reference": "195d1534509ac70c4f47d0d8594ecf60525a9f48",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-01-31 18:41:07",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    },
+                    "installer-name": "bangpoundstyles"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Styles module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundstyles/tree/7.0.5",
                     "issues": "https://github.com/bangpound/bangpoundstyles/issues"
                 }
             }
@@ -2411,22 +2449,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
-                    "reference": "7ae735b4d970d431bafdebf879a054a0aefea4c0"
+                    "reference": "9a098f76872b4eb5b104d36b30ca318d9cfe195b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/7ae735b4d970d431bafdebf879a054a0aefea4c0",
-                    "reference": "7ae735b4d970d431bafdebf879a054a0aefea4c0",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/9a098f76872b4eb5b104d36b30ca318d9cfe195b",
+                    "reference": "9a098f76872b4eb5b104d36b30ca318d9cfe195b",
                     "shasum": ""
                 },
                 "require": {
                     "doctrine/couchdb": "@dev",
                     "doctrine/couchdb-odm": "@dev",
                     "php": ">=5.3.2",
-                    "symfony/doctrine-bridge": "~2.0",
-                    "symfony/framework-bundle": "~2.0"
+                    "symfony/doctrine-bridge": "~2.3|~3.0",
+                    "symfony/framework-bundle": "~2.3|~3.0"
                 },
-                "time": "2014-09-03 06:40:47",
+                "time": "2016-01-06 03:05:22",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -2465,22 +2503,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
-                    "reference": "7ae735b4d970d431bafdebf879a054a0aefea4c0"
+                    "reference": "2c1ecc1b918e68d6800e38355f58e7e98310c9c7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/7ae735b4d970d431bafdebf879a054a0aefea4c0",
-                    "reference": "7ae735b4d970d431bafdebf879a054a0aefea4c0",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/2c1ecc1b918e68d6800e38355f58e7e98310c9c7",
+                    "reference": "2c1ecc1b918e68d6800e38355f58e7e98310c9c7",
                     "shasum": ""
                 },
                 "require": {
                     "doctrine/couchdb": "@dev",
                     "doctrine/couchdb-odm": "@dev",
                     "php": ">=5.3.2",
-                    "symfony/doctrine-bridge": "~2.0",
-                    "symfony/framework-bundle": "~2.0"
+                    "symfony/doctrine-bridge": "~2.3|~3.0",
+                    "symfony/framework-bundle": "~2.3|~3.0"
                 },
-                "time": "2014-09-03 06:40:47",
+                "time": "2016-01-06 03:05:02",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -2508,7 +2546,61 @@
                     "symfony"
                 ],
                 "support": {
-                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/design-document-config"
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/develop"
+                }
+            },
+            "dev-fix-factory-definitions": {
+                "name": "doctrine/couchdb-odm-bundle",
+                "version": "dev-fix-factory-definitions",
+                "version_normalized": "dev-fix-factory-definitions",
+                "target-dir": "Doctrine/Bundle/CouchDBBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
+                    "reference": "7e64be71c4b911c6ac330ebd8cba940908398028"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/7e64be71c4b911c6ac330ebd8cba940908398028",
+                    "reference": "7e64be71c4b911c6ac330ebd8cba940908398028",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/couchdb": "@dev",
+                    "doctrine/couchdb-odm": "@dev",
+                    "php": ">=5.3.2",
+                    "symfony/doctrine-bridge": "~2.3|~3.0",
+                    "symfony/framework-bundle": "~2.3|~3.0"
+                },
+                "time": "2016-01-06 03:04:14",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\Bundle\\CouchDBBundle": ""
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "Symfony2 Doctrine CouchDB Bundle",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence",
+                    "symfony"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/fix-factory-definitions"
                 }
             }
         },
@@ -2648,15 +2740,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/R-Shief/kal3a-bundle.git",
-                    "reference": "9d2ce4a79a42497f6a40a11171ec4cc3616f08bf"
+                    "reference": "fbbdcd7420297c3e29b60d923244a964ad436411"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/R-Shief/kal3a-bundle/zipball/9d2ce4a79a42497f6a40a11171ec4cc3616f08bf",
-                    "reference": "9d2ce4a79a42497f6a40a11171ec4cc3616f08bf",
+                    "url": "https://api.github.com/repos/R-Shief/kal3a-bundle/zipball/fbbdcd7420297c3e29b60d923244a964ad436411",
+                    "reference": "fbbdcd7420297c3e29b60d923244a964ad436411",
                     "shasum": ""
                 },
-                "time": "2014-11-02 19:54:36",
+                "time": "2016-01-05 08:00:31",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
