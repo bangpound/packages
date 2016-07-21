@@ -2604,38 +2604,6 @@
                 }
             }
         },
-        "drupal/composer": {
-            "dev-8.x-1.x": {
-                "name": "drupal/composer",
-                "version": "dev-8.x-1.x",
-                "version_normalized": "dev-8.x-1.x",
-                "source": {
-                    "type": "git",
-                    "url": "http://git.drupal.org/sandbox/bangpound/2347985.git",
-                    "reference": "39ba53eb6ca6055fd56e9b3f57d7fc7a9d18908c"
-                },
-                "require": {
-                    "composer/composer": "~1.0@dev"
-                },
-                "time": "2015-07-31 01:56:48",
-                "type": "drupal-drush",
-                "license": [
-                    "GPL-2.0"
-                ],
-                "authors": [
-                    {
-                        "name": "Rob Loach",
-                        "homepage": "http://robloach.net"
-                    }
-                ],
-                "description": "Use Composer, the PHP package management system, from Drush.",
-                "homepage": "http://drupal.org/project/composer",
-                "support": {
-                    "issues": "http://drupal.org/project/issues/composer",
-                    "source": "http://drupalcode.org/project/composer.git"
-                }
-            }
-        },
         "gonzalo123/yaml2pimple": {
             "dev-master": {
                 "name": "gonzalo123/yaml2pimple",
