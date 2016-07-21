@@ -124,7 +124,7 @@
     {% set normalizedPackages = normalizedPackages | merge([normalizedPackage]) %}
 {% endfor %}
 {% endspaceless %}
-<script type="application/json" json-data ng-model="main">{{ {
+<script type="application/json" ng-model="main">{{ {
     name: name,
     url: url,
     description: description,

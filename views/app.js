@@ -14,22 +14,25 @@
         };
     }
 
-    function JsonDataLink(scope, element, attributes) {
-        scope[attributes.ngModel] = angular.fromJson(element[0].textContent);
-    }
 
-    function JsonData() {
+    function ScriptDirective($rootScope) {
         return {
-            restrict: 'A',
-            link: JsonDataLink
+            restrict: 'E',
+            compile: function JsonDataCompile(tElement, tAttr) {
+                if (tAttr.type === 'application/json' && tAttr.hasOwnProperty('ngModel')) {
+                    $rootScope[tAttr.ngModel] = angular.fromJson(tElement[0].textContent);
+                }
+            }
         };
     }
+
+    ScriptDirective.$inject = ['$rootScope'];
 
     angular
         .module('satisBrowser', [])
         .config(Config)
         .filter('capitalize', CapitalizeFilter)
-        .directive('jsonData', JsonData)
+        .directive('script', ScriptDirective)
     ;
 
     angular.bootstrap(document, ['satisBrowser'], {
