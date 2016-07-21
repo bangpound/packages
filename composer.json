@@ -13,5 +13,11 @@
     "prefer-stable": true,
     "config": {
         "bin-dir": "bin"
+    },
+    "scripts": {
+        "build": [
+            "uglifyjs views/app.js  -c -m > views/app.min.js",
+            "bin/satis build"
+        ]
     }
 }
