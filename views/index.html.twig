@@ -11,7 +11,7 @@
 {% include 'styles.css' %}
     </style>
 </head>
-<body ng-app="satisBrowser">
+<body>
 
 <div class="pure-g" ng-controller="mainController as main">
     <div class="pure-u-1-1">
@@ -94,7 +94,6 @@
     </div>
 </div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
 {% spaceless %}
 {% set normalizedPackages = [] %}
 {% for package in packages %}
@@ -128,22 +127,17 @@
     {% set normalizedPackages = normalizedPackages | merge([normalizedPackage]) %}
 {% endfor %}
 {% endspaceless %}
-<script>
-    angular
-        .module('satisBrowser', [])
-        .value('packages', {{ normalizedPackages | json_encode | raw }})
-        .value('dependencies', {{ dependencies | json_encode | raw }})
-        .value('lastUpdate', new Date({{ "now" | date(constant('\DateTime::RFC2822')) | json_encode | raw }}))
-        .filter('capitalize', function() {
-            return function(input, all) {
-                return (!!input) ? input.charAt(0).toUpperCase() + input.substr(1).toLowerCase() : '';
-            }
-        })
-        .controller('mainController', ['packages', 'dependencies', 'lastUpdate', function (packages, dependencies, lastUpdate) {
-            this.packages = packages;
-            this.dependencies = dependencies;
-            this.lastUpdate = lastUpdate;
-        }]);
+<script type="application/json" id="satis-data">{{ {
+    name: name,
+    url: url,
+    description: description,
+    packages: normalizedPackages,
+    dependencies: dependencies,
+    lastUpdate: "now" | date(constant('\DateTime::RFC2822'))
+} | json_encode | raw }}</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+<script type="application/javascript">
+{% include 'app.js' %}
 </script>
 </body>
 </html>
