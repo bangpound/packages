@@ -19,7 +19,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:40:36",
+                "time": "2014-11-23T02:40:36+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -59,7 +59,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-24 06:41:55",
+                "time": "2014-11-24T06:41:55+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -99,7 +99,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-07-30 06:56:50",
+                "time": "2015-07-30T06:56:50+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -140,7 +140,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2016-11-08 06:33:20",
+                "time": "2016-11-08T06:33:20+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -183,7 +183,7 @@
                 "require": {
                     "sp/bower-bundle": "~0.11"
                 },
-                "time": "2014-09-01 17:42:08",
+                "time": "2014-09-01T17:42:08+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -227,7 +227,7 @@
                     "reference": "56a30c1ea879d435b180b9920c73f869dfc6b6e6",
                     "shasum": ""
                 },
-                "time": "2016-01-05 07:50:51",
+                "time": "2016-01-05T07:50:51+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -272,7 +272,7 @@
                     "reference": "72dc5e068307fa6a3db39acb769601e0709676a8",
                     "shasum": ""
                 },
-                "time": "2013-08-10 04:01:20",
+                "time": "2013-08-10T04:01:20+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -314,7 +314,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:36:43",
+                "time": "2014-11-23T02:36:43+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -354,7 +354,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-07-30 06:57:23",
+                "time": "2015-07-30T06:57:23+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -384,22 +384,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundefq.git",
-                    "reference": "712e972e530244c599ffdcf659825d8f589a02ad"
+                    "reference": "c60c073de6d49c3cbb26be338c0d4d21ee99d7a9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundefq/zipball/712e972e530244c599ffdcf659825d8f589a02ad",
-                    "reference": "712e972e530244c599ffdcf659825d8f589a02ad",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundefq/zipball/c60c073de6d49c3cbb26be338c0d4d21ee99d7a9",
+                    "reference": "c60c073de6d49c3cbb26be338c0d4d21ee99d7a9",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-07-30 06:57:23",
+                "time": "2016-11-08T06:35:39+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
-                        "dev-master": "7.0.x-dev"
+                        "dev-master": "1.x-dev"
                     },
                     "installer-name": "bangpoundefq"
                 },
@@ -414,7 +414,7 @@
                 ],
                 "description": "EFQ module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundefq/tree/7.0.1",
+                    "source": "https://github.com/bangpound/bangpoundefq/tree/master",
                     "issues": "https://github.com/bangpound/bangpoundefq/issues"
                 }
             }
@@ -438,7 +438,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:44:14",
+                "time": "2014-11-23T02:44:14+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -478,7 +478,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-06-07 01:50:11",
+                "time": "2015-06-07T01:50:11+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -518,7 +518,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-07-30 06:58:05",
+                "time": "2015-07-30T06:58:05+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -541,6 +541,27 @@
                     "issues": "https://github.com/bangpound/bangpoundentity/issues"
                 }
             },
+            "dev-master": {
+                "name": "bangpound/entity-module",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundentity.git",
+                    "reference": "7d80bc4252fcf886277d205230b7fd2038b0076c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/7d80bc4252fcf886277d205230b7fd2038b0076c",
+                    "reference": "7d80bc4252fcf886277d205230b7fd2038b0076c",
+                    "shasum": ""
+                },
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundentity/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundentity/issues"
+                }
+            },
             "dev-7.x-1.x": {
                 "name": "bangpound/entity-module",
                 "version": "dev-7.x-1.x",
@@ -559,7 +580,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2016-11-08 06:33:00",
+                "time": "2016-11-08T06:33:00+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -602,7 +623,7 @@
                 "require": {
                     "guzzle/guzzle": "~3.7"
                 },
-                "time": "2013-09-20 19:06:48",
+                "time": "2013-09-20T19:06:48+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -645,7 +666,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2014-11-23 02:44:38",
+                "time": "2014-11-23T02:44:38+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -691,7 +712,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2014-11-24 06:38:33",
+                "time": "2014-11-24T06:38:33+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -737,7 +758,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2015-01-18 15:43:06",
+                "time": "2015-01-18T15:43:06+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -783,7 +804,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2015-06-07 23:31:50",
+                "time": "2015-06-07T23:31:50+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -829,7 +850,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2015-07-30 07:00:50",
+                "time": "2015-07-30T07:00:50+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -876,7 +897,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2016-11-08 06:34:34",
+                "time": "2016-11-08T06:34:34+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -906,6 +927,90 @@
             }
         },
         "bangpound/panels-module": {
+            "0.5": {
+                "name": "bangpound/panels-module",
+                "version": "0.5",
+                "version_normalized": "0.5.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpanels.git",
+                    "reference": "614e8a46a86d16a5f532dbc61b6480c3b82bec59"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/614e8a46a86d16a5f532dbc61b6480c3b82bec59",
+                    "reference": "614e8a46a86d16a5f532dbc61b6480c3b82bec59",
+                    "shasum": ""
+                },
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/0.5",
+                    "issues": "https://github.com/bangpound/bangpoundpanels/issues"
+                }
+            },
+            "v0.6": {
+                "name": "bangpound/panels-module",
+                "version": "v0.6",
+                "version_normalized": "0.6.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpanels.git",
+                    "reference": "1c3d717f23c08dd31ed46638d95dfe9df9583c70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/1c3d717f23c08dd31ed46638d95dfe9df9583c70",
+                    "reference": "1c3d717f23c08dd31ed46638d95dfe9df9583c70",
+                    "shasum": ""
+                },
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/v0.6",
+                    "issues": "https://github.com/bangpound/bangpoundpanels/issues"
+                }
+            },
+            "1.0.5": {
+                "name": "bangpound/panels-module",
+                "version": "1.0.5",
+                "version_normalized": "1.0.5.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpanels.git",
+                    "reference": "c84a0ee03852ab842119b8fe88423a2026cc3fb3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/c84a0ee03852ab842119b8fe88423a2026cc3fb3",
+                    "reference": "c84a0ee03852ab842119b8fe88423a2026cc3fb3",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "symfony/property-access": "~2.7|3.0.*|3.1.*|3.2.*"
+                },
+                "time": "2016-12-26T19:40:57+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "installer-name": "bangpoundpanels"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Panels module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/1.0.5",
+                    "issues": "https://github.com/bangpound/bangpoundpanels/issues"
+                }
+            },
             "7.0.0": {
                 "name": "bangpound/panels-module",
                 "version": "7.0.0",
@@ -925,7 +1030,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2014-11-23 02:40:51",
+                "time": "2014-11-23T02:40:51+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -966,7 +1071,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2015-06-08 17:58:40",
+                "time": "2015-06-08T17:58:40+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1007,7 +1112,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2015-07-30 06:58:30",
+                "time": "2015-07-30T06:58:30+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1049,7 +1154,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.0"
                 },
-                "time": "2015-11-17 10:14:17",
+                "time": "2015-11-17T10:14:17+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1091,7 +1196,7 @@
                     "composer/installers": "~1.0",
                     "symfony/property-access": "~2.7|3.0.*"
                 },
-                "time": "2015-12-01 10:40:53",
+                "time": "2015-12-01T10:40:53+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1121,19 +1226,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundpanels.git",
-                    "reference": "69120db68f9e953393260151c4352cae758e7be9"
+                    "reference": "c84a0ee03852ab842119b8fe88423a2026cc3fb3"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/69120db68f9e953393260151c4352cae758e7be9",
-                    "reference": "69120db68f9e953393260151c4352cae758e7be9",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/c84a0ee03852ab842119b8fe88423a2026cc3fb3",
+                    "reference": "c84a0ee03852ab842119b8fe88423a2026cc3fb3",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
-                    "symfony/property-access": "~2.7|3.0.*|3.1.*"
+                    "symfony/property-access": "~2.7|3.0.*|3.1.*|3.2.*"
                 },
-                "time": "2016-11-08 06:31:29",
+                "time": "2016-12-26T19:40:57+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1152,7 +1257,7 @@
                 ],
                 "description": "Panels module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundpanels/tree/master",
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/1.0.5",
                     "issues": "https://github.com/bangpound/bangpoundpanels/issues"
                 }
             }
@@ -1176,7 +1281,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:38:41",
+                "time": "2014-11-23T02:38:41+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1216,7 +1321,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-02-28 20:44:42",
+                "time": "2015-02-28T20:44:42+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1256,7 +1361,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-07-30 06:58:42",
+                "time": "2015-07-30T06:58:42+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1297,7 +1402,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2016-11-08 06:35:04",
+                "time": "2016-11-08T06:35:04+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1337,7 +1442,7 @@
                     "reference": "f1090666f1550d422b22fd300319318c096af25f",
                     "shasum": ""
                 },
-                "time": "2014-10-17 19:07:18",
+                "time": "2014-10-17T19:07:18+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -1384,7 +1489,7 @@
                 "require": {
                     "sp/bower-bundle": "~0.11"
                 },
-                "time": "2014-09-01 17:55:13",
+                "time": "2014-09-01T17:55:13+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -1431,7 +1536,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:38:57",
+                "time": "2014-11-23T02:38:57+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1471,7 +1576,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-06-07 01:05:50",
+                "time": "2015-06-07T01:05:50+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1511,7 +1616,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-06-07 06:32:19",
+                "time": "2015-06-07T06:32:19+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1551,7 +1656,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-07-30 06:59:31",
+                "time": "2015-07-30T06:59:31+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1592,7 +1697,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-11-29 16:27:38",
+                "time": "2015-11-29T16:27:38+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1633,7 +1738,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2016-11-08 06:34:22",
+                "time": "2016-11-08T06:34:22+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1676,7 +1781,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 03:52:52",
+                "time": "2014-11-23T03:52:52+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1716,7 +1821,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-04-27 01:46:31",
+                "time": "2015-04-27T01:46:31+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1756,7 +1861,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-05-04 04:37:04",
+                "time": "2015-05-04T04:37:04+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1796,7 +1901,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-07-30 07:00:05",
+                "time": "2015-07-30T07:00:05+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1837,7 +1942,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-11-21 23:47:56",
+                "time": "2015-11-21T23:47:56+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1878,7 +1983,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2016-01-31 18:41:07",
+                "time": "2016-01-31T18:41:07+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1919,7 +2024,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2016-11-08 06:34:05",
+                "time": "2016-11-08T06:34:05+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1964,7 +2069,7 @@
                     "jms/serializer-bundle": "dev-master",
                     "sonata-project/admin-bundle": "dev-master"
                 },
-                "time": "2013-08-07 23:03:07",
+                "time": "2013-08-07T23:03:07+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -2008,7 +2113,7 @@
                     "bangpound/twitter-data-bundle": "dev-master",
                     "friendsofsymfony/rest-bundle": "dev-master"
                 },
-                "time": "2013-07-16 10:11:36",
+                "time": "2013-07-16T10:11:36+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -2050,7 +2155,7 @@
                 "require": {
                     "symfony/dom-crawler": "~2.3"
                 },
-                "time": "2013-10-27 16:49:01",
+                "time": "2013-10-27T16:49:01+00:00",
                 "type": "library",
                 "autoload": {
                     "classmap": [
@@ -2096,7 +2201,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2014-11-23 02:45:49",
+                "time": "2014-11-23T02:45:49+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2136,7 +2241,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2015-07-30 06:59:44",
+                "time": "2015-07-30T06:59:44+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2177,7 +2282,7 @@
                 "require": {
                     "composer/installers": "~1.0"
                 },
-                "time": "2016-11-08 06:34:51",
+                "time": "2016-11-08T06:34:51+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -2221,7 +2326,7 @@
                     "doctrine/common": "@stable",
                     "php": ">=5.3.2"
                 },
-                "time": "2013-07-28 02:11:58",
+                "time": "2013-07-28T02:11:58+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -2263,12 +2368,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/couchdb-client.git",
-                    "reference": "4d3aa736649d12d1c65cfff6fa6b0e251de112b1"
+                    "reference": "911c01716730af0fc0b5074a0740fddce3156ac0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/4d3aa736649d12d1c65cfff6fa6b0e251de112b1",
-                    "reference": "4d3aa736649d12d1c65cfff6fa6b0e251de112b1",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/911c01716730af0fc0b5074a0740fddce3156ac0",
+                    "reference": "911c01716730af0fc0b5074a0740fddce3156ac0",
                     "shasum": ""
                 },
                 "require": {
@@ -2277,7 +2382,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "~4.0"
                 },
-                "time": "2015-12-07 20:27:17",
+                "time": "2016-08-06T11:26:41+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -2324,12 +2429,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/couchdb-client.git",
-                    "reference": "7e1ea6068cc6d72f21c8fb70034e4ac9172d37f2"
+                    "reference": "60d30c91d06727b467ddfda46a81bdf1167b18c0"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/7e1ea6068cc6d72f21c8fb70034e4ac9172d37f2",
-                    "reference": "7e1ea6068cc6d72f21c8fb70034e4ac9172d37f2",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/60d30c91d06727b467ddfda46a81bdf1167b18c0",
+                    "reference": "60d30c91d06727b467ddfda46a81bdf1167b18c0",
                     "shasum": ""
                 },
                 "require": {
@@ -2338,7 +2443,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "~4.0"
                 },
-                "time": "2015-12-31 23:33:07",
+                "time": "2016-11-19T00:15:10+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -2385,12 +2490,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/couchdb-client.git",
-                    "reference": "4d3aa736649d12d1c65cfff6fa6b0e251de112b1"
+                    "reference": "ae64902b7ce2d779d8c791de0fc5877e19cf2d70"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/4d3aa736649d12d1c65cfff6fa6b0e251de112b1",
-                    "reference": "4d3aa736649d12d1c65cfff6fa6b0e251de112b1",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/ae64902b7ce2d779d8c791de0fc5877e19cf2d70",
+                    "reference": "ae64902b7ce2d779d8c791de0fc5877e19cf2d70",
                     "shasum": ""
                 },
                 "require": {
@@ -2399,7 +2504,68 @@
                 "require-dev": {
                     "phpunit/phpunit": "~4.0"
                 },
-                "time": "2015-12-07 20:27:17",
+                "time": "2016-11-20T03:29:49+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\CouchDB\\": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Doctrine\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/develop"
+                }
+            },
+            "dev-feature/new-api": {
+                "name": "doctrine/couchdb",
+                "version": "dev-feature/new-api",
+                "version_normalized": "dev-feature/new-api",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "b36f440d85fb26347ad5ee8a85247045823bc8e3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/b36f440d85fb26347ad5ee8a85247045823bc8e3",
+                    "reference": "b36f440d85fb26347ad5ee8a85247045823bc8e3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2016-11-19T15:53:09+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -2436,11 +2602,31 @@
                     "persistence"
                 ],
                 "support": {
-                    "source": "https://github.com/bangpound/couchdb-client/tree/develop"
+                    "source": "https://github.com/bangpound/couchdb-client/tree/feature/new-api"
                 }
             }
         },
         "doctrine/couchdb-odm-bundle": {
+            "v2.0": {
+                "name": "doctrine/couchdb-odm-bundle",
+                "version": "v2.0",
+                "version_normalized": "2.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
+                    "reference": "d30ca8734efecd4dbd63f81334f9e2f8b596ec8f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/d30ca8734efecd4dbd63f81334f9e2f8b596ec8f",
+                    "reference": "d30ca8734efecd4dbd63f81334f9e2f8b596ec8f",
+                    "shasum": ""
+                },
+                "type": "library",
+                "support": {
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/v2.0"
+                }
+            },
             "dev-master": {
                 "name": "doctrine/couchdb-odm-bundle",
                 "version": "dev-master",
@@ -2464,7 +2650,7 @@
                     "symfony/doctrine-bridge": "~2.3|~3.0",
                     "symfony/framework-bundle": "~2.3|~3.0"
                 },
-                "time": "2015-12-14 20:07:33",
+                "time": "2015-12-14T20:07:33+00:00",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -2495,20 +2681,19 @@
                     "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/master"
                 }
             },
-            "dev-design-document-config": {
+            "dev-develop": {
                 "name": "doctrine/couchdb-odm-bundle",
-                "version": "dev-design-document-config",
-                "version_normalized": "dev-design-document-config",
-                "target-dir": "Doctrine/Bundle/CouchDBBundle",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
-                    "reference": "9a098f76872b4eb5b104d36b30ca318d9cfe195b"
+                    "reference": "03d7a7f167e1934d32b101922fe2e97155eb16f9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/9a098f76872b4eb5b104d36b30ca318d9cfe195b",
-                    "reference": "9a098f76872b4eb5b104d36b30ca318d9cfe195b",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/03d7a7f167e1934d32b101922fe2e97155eb16f9",
+                    "reference": "03d7a7f167e1934d32b101922fe2e97155eb16f9",
                     "shasum": ""
                 },
                 "require": {
@@ -2518,11 +2703,11 @@
                     "symfony/doctrine-bridge": "~2.3|~3.0",
                     "symfony/framework-bundle": "~2.3|~3.0"
                 },
-                "time": "2016-01-06 03:05:22",
+                "time": "2016-12-12T06:47:43+00:00",
                 "type": "symfony-bundle",
                 "autoload": {
-                    "psr-0": {
-                        "Doctrine\\Bundle\\CouchDBBundle": ""
+                    "psr-4": {
+                        "Doctrine\\Bundle\\CouchDBBundle\\": ""
                     }
                 },
                 "license": [
@@ -2546,23 +2731,22 @@
                     "symfony"
                 ],
                 "support": {
-                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/design-document-config"
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/develop"
                 }
             },
-            "dev-develop": {
+            "dev-feature/psr4": {
                 "name": "doctrine/couchdb-odm-bundle",
-                "version": "dev-develop",
-                "version_normalized": "dev-develop",
-                "target-dir": "Doctrine/Bundle/CouchDBBundle",
+                "version": "dev-feature/psr4",
+                "version_normalized": "dev-feature/psr4",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
-                    "reference": "2c1ecc1b918e68d6800e38355f58e7e98310c9c7"
+                    "reference": "5c57ea2c8b469528d45cb28ac006e09cda76ccde"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/2c1ecc1b918e68d6800e38355f58e7e98310c9c7",
-                    "reference": "2c1ecc1b918e68d6800e38355f58e7e98310c9c7",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/5c57ea2c8b469528d45cb28ac006e09cda76ccde",
+                    "reference": "5c57ea2c8b469528d45cb28ac006e09cda76ccde",
                     "shasum": ""
                 },
                 "require": {
@@ -2572,11 +2756,11 @@
                     "symfony/doctrine-bridge": "~2.3|~3.0",
                     "symfony/framework-bundle": "~2.3|~3.0"
                 },
-                "time": "2016-01-06 03:05:02",
+                "time": "2016-11-19T00:35:33+00:00",
                 "type": "symfony-bundle",
                 "autoload": {
-                    "psr-0": {
-                        "Doctrine\\Bundle\\CouchDBBundle": ""
+                    "psr-4": {
+                        "Doctrine\\Bundle\\CouchDBBundle\\": ""
                     }
                 },
                 "license": [
@@ -2626,7 +2810,7 @@
                     "symfony/doctrine-bridge": "~2.3|~3.0",
                     "symfony/framework-bundle": "~2.3|~3.0"
                 },
-                "time": "2016-01-06 03:04:14",
+                "time": "2016-01-06T03:04:14+00:00",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -2665,12 +2849,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
-                    "reference": "dd0029ca95655ebff8e4bd1c8b11ed2bf5f7f2e9"
+                    "reference": "8187596ca4cf8e73e83bcfac1054e221f7ee1bfc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/dd0029ca95655ebff8e4bd1c8b11ed2bf5f7f2e9",
-                    "reference": "dd0029ca95655ebff8e4bd1c8b11ed2bf5f7f2e9",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/8187596ca4cf8e73e83bcfac1054e221f7ee1bfc",
+                    "reference": "8187596ca4cf8e73e83bcfac1054e221f7ee1bfc",
                     "shasum": ""
                 },
                 "require": {
@@ -2680,7 +2864,7 @@
                     "symfony/doctrine-bridge": "~2.3|~3.0",
                     "symfony/framework-bundle": "~2.3|~3.0"
                 },
-                "time": "2016-08-30 06:02:30",
+                "time": "2016-11-19T00:24:56+00:00",
                 "type": "symfony-bundle",
                 "autoload": {
                     "psr-0": {
@@ -2725,7 +2909,7 @@
                 "require": {
                     "composer/composer": "~1.0@dev"
                 },
-                "time": "2015-07-31 01:56:48",
+                "time": "2015-07-31T01:56:48+00:00",
                 "type": "drupal-drush",
                 "license": [
                     "GPL-2.0"
@@ -2771,7 +2955,7 @@
                     "phpunit/phpunit-mock-objects": "2.3.*@dev",
                     "sebastian/global-state": "1.0.*@dev"
                 },
-                "time": "2014-10-02 18:35:54",
+                "time": "2014-10-02T18:35:54+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-4": {
@@ -2817,7 +3001,7 @@
                 "require-dev": {
                     "phpunit/phpunit": "3.7.*"
                 },
-                "time": "2012-11-16 16:56:42",
+                "time": "2012-11-16T16:56:42+00:00",
                 "type": "library",
                 "autoload": {
                     "psr-0": {
@@ -2856,7 +3040,7 @@
                     "reference": "fbbdcd7420297c3e29b60d923244a964ad436411",
                     "shasum": ""
                 },
-                "time": "2016-01-05 08:00:31",
+                "time": "2016-01-05T08:00:31+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -2905,7 +3089,7 @@
                     "ddeboer/data-import-bundle": "~0.1.0",
                     "mjohnson/decoda": "~6.2.3"
                 },
-                "time": "2014-09-04 03:26:13",
+                "time": "2014-09-04T03:26:13+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -2953,7 +3137,7 @@
                 "require": {
                     "guzzle/guzzle": "3.5.*"
                 },
-                "time": "2013-06-09 03:40:24",
+                "time": "2013-06-09T03:40:24+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
