@@ -1011,6 +1011,48 @@
                     "issues": "https://github.com/bangpound/bangpoundpanels/issues"
                 }
             },
+            "1.0.7": {
+                "name": "bangpound/panels-module",
+                "version": "1.0.7",
+                "version_normalized": "1.0.7.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpanels.git",
+                    "reference": "0479cde8cdd200988f839e5a7f3c88ea74a25f9e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/0479cde8cdd200988f839e5a7f3c88ea74a25f9e",
+                    "reference": "0479cde8cdd200988f839e5a7f3c88ea74a25f9e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "symfony/property-access": "~2.7|^3.0|^4.0"
+                },
+                "time": "2018-09-30T02:34:25+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "installer-name": "bangpoundpanels"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Panels module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/1.0.7",
+                    "issues": "https://github.com/bangpound/bangpoundpanels/issues"
+                }
+            },
             "7.0.0": {
                 "name": "bangpound/panels-module",
                 "version": "7.0.0",
@@ -1226,19 +1268,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundpanels.git",
-                    "reference": "8cbb2b394e74edf5f4a3e7c9fb2d13b2dd965f61"
+                    "reference": "0479cde8cdd200988f839e5a7f3c88ea74a25f9e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/8cbb2b394e74edf5f4a3e7c9fb2d13b2dd965f61",
-                    "reference": "8cbb2b394e74edf5f4a3e7c9fb2d13b2dd965f61",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/0479cde8cdd200988f839e5a7f3c88ea74a25f9e",
+                    "reference": "0479cde8cdd200988f839e5a7f3c88ea74a25f9e",
                     "shasum": ""
                 },
                 "require": {
                     "composer/installers": "~1.0",
-                    "symfony/property-access": "~2.7|^3.0"
+                    "symfony/property-access": "~2.7|^3.0|^4.0"
                 },
-                "time": "2018-09-03T13:08:12+00:00",
+                "time": "2018-09-30T02:34:25+00:00",
                 "type": "drupal-module",
                 "extra": {
                     "branch-alias": {
@@ -1257,7 +1299,7 @@
                 ],
                 "description": "Panels module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundpanels/tree/master",
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/1.0.7",
                     "issues": "https://github.com/bangpound/bangpoundpanels/issues"
                 }
             }
