@@ -1034,6 +1034,47 @@
                     "issues": "https://github.com/bangpound/bangpoundpanels/issues"
                 }
             },
+            "1.0.8": {
+                "name": "bangpound/panels-module",
+                "version": "1.0.8",
+                "version_normalized": "1.0.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpanels.git",
+                    "reference": "5aeb11fc299f07885e86d2a04627dde22ca326f5"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/5aeb11fc299f07885e86d2a04627dde22ca326f5",
+                    "reference": "5aeb11fc299f07885e86d2a04627dde22ca326f5",
+                    "shasum": ""
+                },
+                "require": {
+                    "symfony/property-access": "~2.7|^3.0|^4.0"
+                },
+                "time": "2023-09-21T02:50:13+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "installer-name": "bangpoundpanels"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Panels module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/1.0.8",
+                    "issues": "https://github.com/bangpound/bangpoundpanels/issues"
+                }
+            },
             "7.0.0": {
                 "name": "bangpound/panels-module",
                 "version": "7.0.0",
@@ -1280,7 +1321,7 @@
                 ],
                 "description": "Panels module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundpanels/tree/master",
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/1.0.8",
                     "issues": "https://github.com/bangpound/bangpoundpanels/issues"
                 }
             }

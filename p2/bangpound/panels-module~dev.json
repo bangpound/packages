@@ -39,7 +39,7 @@
                 ],
                 "description": "Panels module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundpanels/tree/master",
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/1.0.8",
                     "issues": "https://github.com/bangpound/bangpoundpanels/issues"
                 }
             }
