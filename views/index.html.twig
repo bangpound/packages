@@ -93,7 +93,7 @@
 </div>
 {% endverbatim %}
 
-{% spaceless %}
+{% apply spaceless %}
 {% set normalizedPackages = [] %}
 {% for package in packages %}
     {% set normalizedVersions = [] %}
@@ -125,7 +125,7 @@
     } %}
     {% set normalizedPackages = normalizedPackages | merge([normalizedPackage]) %}
 {% endfor %}
-{% endspaceless %}
+{% endapply %}
 <script type="application/json" ng-model="main">{{ {
     name: name,
     url: url,

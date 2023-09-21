@@ -2,7 +2,7 @@
     "name": "bangpound/packages",
     "description": "experimental",
     "require": {
-        "composer/satis": "dev-master"
+        "composer/satis": "dev-main"
     },
     "autoload": {
         "psr-0": {
@@ -12,7 +12,10 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "bin-dir": "bin"
+        "bin-dir": "bin",
+        "allow-plugins": {
+            "composer/satis": true
+        }
     },
     "scripts": {
         "build": [
