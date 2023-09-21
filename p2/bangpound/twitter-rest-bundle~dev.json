@@ -1,0 +1,49 @@
+{
+    "packages": {
+        "bangpound/twitter-rest-bundle": [
+            {
+                "name": "bangpound/twitter-rest-bundle",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "target-dir": "Bangpound/Twitter/RestBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/TwitterRestBundle.git",
+                    "reference": "94d93b36015df8a4f2c4ff2d5e3bf7db47fb146b"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/TwitterRestBundle/zipball/94d93b36015df8a4f2c4ff2d5e3bf7db47fb146b",
+                    "reference": "94d93b36015df8a4f2c4ff2d5e3bf7db47fb146b",
+                    "shasum": ""
+                },
+                "require": {
+                    "bangpound/twitter-data-bundle": "dev-master",
+                    "friendsofsymfony/rest-bundle": "dev-master"
+                },
+                "time": "2013-07-16T10:11:36+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Bangpound\\Twitter\\RestBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Tweet REST controllers",
+                "support": {
+                    "source": "https://github.com/bangpound/TwitterRestBundle/tree/master",
+                    "issues": "https://github.com/bangpound/TwitterRestBundle/issues"
+                }
+            }
+        ]
+    }
+}

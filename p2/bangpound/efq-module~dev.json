@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "bangpound/efq-module": [
+            {
+                "name": "bangpound/efq-module",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundefq.git",
+                    "reference": "c60c073de6d49c3cbb26be338c0d4d21ee99d7a9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundefq/zipball/c60c073de6d49c3cbb26be338c0d4d21ee99d7a9",
+                    "reference": "c60c073de6d49c3cbb26be338c0d4d21ee99d7a9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-11-08T06:35:39+00:00",
+                "default-branch": true,
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "installer-name": "bangpoundefq"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "EFQ module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundefq/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundefq/issues"
+                }
+            }
+        ]
+    }
+}

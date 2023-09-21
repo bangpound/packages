@@ -1,0 +1,51 @@
+{
+    "packages": {
+        "bangpound/url-resolver": [
+            {
+                "name": "bangpound/url-resolver",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/URLResolver.php.git",
+                    "reference": "2342a260bab17ec580bb8b60541cb507c5534478"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/URLResolver.php/zipball/2342a260bab17ec580bb8b60541cb507c5534478",
+                    "reference": "2342a260bab17ec580bb8b60541cb507c5534478",
+                    "shasum": ""
+                },
+                "require": {
+                    "symfony/dom-crawler": "~2.3"
+                },
+                "time": "2013-10-27T16:49:01+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "classmap": [
+                        "URLResolver.php",
+                        "URLResolverResult.php"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    },
+                    {
+                        "name": "Matt Wright",
+                        "email": "mw@mattwright.com"
+                    }
+                ],
+                "description": "attempts to resolve URLs to a final, canonical link",
+                "support": {
+                    "source": "https://github.com/bangpound/URLResolver.php/tree/develop"
+                }
+            }
+        ]
+    }
+}

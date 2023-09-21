@@ -1,0 +1,49 @@
+{
+    "packages": {
+        "bangpound/protosilex-pimple": [
+            {
+                "name": "bangpound/protosilex-pimple",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/protosilex-pimple.git",
+                    "reference": "f1090666f1550d422b22fd300319318c096af25f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/protosilex-pimple/zipball/f1090666f1550d422b22fd300319318c096af25f",
+                    "reference": "f1090666f1550d422b22fd300319318c096af25f",
+                    "shasum": ""
+                },
+                "time": "2014-10-17T19:07:18+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Bangpound\\Pimple\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Features from Silex that are useful outside HttpKernel.",
+                "support": {
+                    "source": "https://github.com/bangpound/protosilex-pimple/tree/master",
+                    "issues": "https://github.com/bangpound/protosilex-pimple/issues"
+                }
+            }
+        ]
+    }
+}

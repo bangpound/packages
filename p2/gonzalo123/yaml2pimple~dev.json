@@ -1,0 +1,59 @@
+{
+    "packages": {
+        "gonzalo123/yaml2pimple": [
+            {
+                "name": "gonzalo123/yaml2pimple",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/yml2pimple.git",
+                    "reference": "75c1d2230574af68062717a2e05d54fc2c798e96"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/yml2pimple/zipball/75c1d2230574af68062717a2e05d54fc2c798e96",
+                    "reference": "75c1d2230574af68062717a2e05d54fc2c798e96",
+                    "shasum": ""
+                },
+                "require": {
+                    "pimple/pimple": "3.0.*@dev",
+                    "symfony/config": "2.6.*@dev",
+                    "symfony/yaml": "2.6.*@dev"
+                },
+                "require-dev": {
+                    "phpunit/php-code-coverage": "3.0.*@dev",
+                    "phpunit/phpunit": "4.4.*@dev",
+                    "phpunit/phpunit-mock-objects": "2.3.*@dev",
+                    "sebastian/global-state": "1.0.*@dev"
+                },
+                "time": "2014-10-02T18:35:54+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "G\\Yaml2Pimple\\": "src/G/Yaml2Pimple"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Gonzalo Ayuso",
+                        "email": "gonzalo123@gmail.com"
+                    }
+                ],
+                "description": "Build a Pimple/Container from a config file",
+                "keywords": [
+                    "container",
+                    "dependency injection",
+                    "pimple"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/yml2pimple/tree/master"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "packages": {
+        "bangpound/analytics-module": [
+            {
+                "name": "bangpound/analytics-module",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundanalytics.git",
+                    "reference": "eea5bdd83d424d38225c8bb928f4fec19fe5d956"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/eea5bdd83d424d38225c8bb928f4fec19fe5d956",
+                    "reference": "eea5bdd83d424d38225c8bb928f4fec19fe5d956",
+                    "shasum": ""
+                },
+                "time": "2023-09-21T02:34:50+00:00",
+                "default-branch": true,
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "installer-name": "bangpoundanalytics"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Analytics module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
+                }
+            }
+        ]
+    }
+}

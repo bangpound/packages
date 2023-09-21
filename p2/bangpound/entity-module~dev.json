@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "bangpound/entity-module": [
+            {
+                "name": "bangpound/entity-module",
+                "version": "dev-7.x-1.x",
+                "version_normalized": "dev-7.x-1.x",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundentity.git",
+                    "reference": "49b6de5b96f9e2950930034f7732af551e232954"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/49b6de5b96f9e2950930034f7732af551e232954",
+                    "reference": "49b6de5b96f9e2950930034f7732af551e232954",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2017-10-19T02:15:21+00:00",
+                "default-branch": true,
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-7.x-1.x": "1.x-dev"
+                    },
+                    "installer-name": "bangpoundentity"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Entity module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundentity/tree/7.x-1.x",
+                    "issues": "https://github.com/bangpound/bangpoundentity/issues"
+                }
+            }
+        ]
+    }
+}

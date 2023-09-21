@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "bangpound/media-module": [
+            {
+                "name": "bangpound/media-module",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundmedia.git",
+                    "reference": "c909a36111c07a7b43b94008988e7e70b79f05d9"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundmedia/zipball/c909a36111c07a7b43b94008988e7e70b79f05d9",
+                    "reference": "c909a36111c07a7b43b94008988e7e70b79f05d9",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0",
+                    "symfony/property-access": "~2.0"
+                },
+                "time": "2016-11-08T06:34:34+00:00",
+                "default-branch": true,
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "installer-name": "bangpoundmedia"
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Drupal\\bangpoundmedia\\": "lib/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Media module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundmedia/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundmedia/issues"
+                }
+            }
+        ]
+    }
+}

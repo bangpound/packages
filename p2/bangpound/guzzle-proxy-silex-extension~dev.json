@@ -1,0 +1,47 @@
+{
+    "packages": {
+        "bangpound/guzzle-proxy-silex-extension": [
+            {
+                "name": "bangpound/guzzle-proxy-silex-extension",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/guzzle-proxy-silex-extension.git",
+                    "reference": "30994252fca0c860fde5444f77fa854030944ae8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/guzzle-proxy-silex-extension/zipball/30994252fca0c860fde5444f77fa854030944ae8",
+                    "reference": "30994252fca0c860fde5444f77fa854030944ae8",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "~3.7"
+                },
+                "time": "2013-09-20T19:06:48+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Bangpound\\Guzzle\\Proxy\\": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Guzzle proxy provider for Silex",
+                "support": {
+                    "source": "https://github.com/bangpound/guzzle-proxy-silex-extension/tree/master",
+                    "issues": "https://github.com/bangpound/guzzle-proxy-silex-extension/issues"
+                }
+            }
+        ]
+    }
+}

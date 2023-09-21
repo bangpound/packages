@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "bangpound/views-module": [
+            {
+                "name": "bangpound/views-module",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundviews.git",
+                    "reference": "1295015194d9d8c4d70277dc45a5d608044f5736"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundviews/zipball/1295015194d9d8c4d70277dc45a5d608044f5736",
+                    "reference": "1295015194d9d8c4d70277dc45a5d608044f5736",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2016-11-08T06:34:51+00:00",
+                "default-branch": true,
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "installer-name": "bangpoundviews"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Views module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundviews/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundviews/issues"
+                }
+            }
+        ]
+    }
+}

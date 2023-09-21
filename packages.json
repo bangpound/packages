@@ -1,8 +1,36 @@
 {
     "packages": [],
     "includes": {
-        "include/all$bb6251d9f41023544a27d1000268b1084326bc78.json": {
-            "sha1": "bb6251d9f41023544a27d1000268b1084326bc78"
+        "include/all$4122b945e8f428df47b164608c5337e6a1e6895a.json": {
+            "sha1": "4122b945e8f428df47b164608c5337e6a1e6895a"
         }
-    }
+    },
+    "metadata-url": "/packages/p2/%package%.json",
+    "available-packages": [
+        "bangpound/analytics-module",
+        "bangpound/angularjs-bundle",
+        "bangpound/castle-search-bundle",
+        "bangpound/corpwatch-data-bundle",
+        "bangpound/efq-module",
+        "bangpound/entity-module",
+        "bangpound/guzzle-proxy-silex-extension",
+        "bangpound/media-module",
+        "bangpound/panels-module",
+        "bangpound/podcast-module",
+        "bangpound/protosilex-pimple",
+        "bangpound/satellizer-bundle",
+        "bangpound/share-module",
+        "bangpound/styles-module",
+        "bangpound/twitter-data-bundle",
+        "bangpound/twitter-rest-bundle",
+        "bangpound/url-resolver",
+        "bangpound/views-module",
+        "doctrine/couchdb",
+        "doctrine/couchdb-odm-bundle",
+        "gonzalo123/yaml2pimple",
+        "robotsnowfall/enum",
+        "rshief/kal3a-bundle",
+        "rshief/migration-bundle",
+        "rvdv/guzzle-clients"
+    ]
 }

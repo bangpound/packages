@@ -1,0 +1,275 @@
+{
+    "packages": {
+        "doctrine/couchdb-odm-bundle": [
+            {
+                "name": "doctrine/couchdb-odm-bundle",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
+                    "reference": "6426325cf6ca51e3f44fde14ddb02302ee5126af"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/6426325cf6ca51e3f44fde14ddb02302ee5126af",
+                    "reference": "6426325cf6ca51e3f44fde14ddb02302ee5126af",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/couchdb": "@dev",
+                    "doctrine/couchdb-odm": "@dev",
+                    "php": ">=5.3.2",
+                    "symfony/doctrine-bridge": "~2.3|~3.0",
+                    "symfony/framework-bundle": "~2.3|~3.0"
+                },
+                "time": "2017-01-22T13:13:02+00:00",
+                "default-branch": true,
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Bundle\\CouchDBBundle\\": ""
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "Symfony2 Doctrine CouchDB Bundle",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence",
+                    "symfony"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/develop"
+                }
+            },
+            {
+                "name": "doctrine/couchdb-odm-bundle",
+                "version": "dev-feature/psr4",
+                "version_normalized": "dev-feature/psr4",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
+                    "reference": "5c57ea2c8b469528d45cb28ac006e09cda76ccde"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/5c57ea2c8b469528d45cb28ac006e09cda76ccde",
+                    "reference": "5c57ea2c8b469528d45cb28ac006e09cda76ccde",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/couchdb": "@dev",
+                    "doctrine/couchdb-odm": "@dev",
+                    "php": ">=5.3.2",
+                    "symfony/doctrine-bridge": "~2.3|~3.0",
+                    "symfony/framework-bundle": "~2.3|~3.0"
+                },
+                "time": "2016-11-19T00:35:33+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\Bundle\\CouchDBBundle\\": ""
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "Symfony2 Doctrine CouchDB Bundle",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence",
+                    "symfony"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/feature/psr4"
+                }
+            },
+            {
+                "name": "doctrine/couchdb-odm-bundle",
+                "version": "dev-fix-factory-definitions",
+                "version_normalized": "dev-fix-factory-definitions",
+                "target-dir": "Doctrine/Bundle/CouchDBBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
+                    "reference": "7e64be71c4b911c6ac330ebd8cba940908398028"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/7e64be71c4b911c6ac330ebd8cba940908398028",
+                    "reference": "7e64be71c4b911c6ac330ebd8cba940908398028",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/couchdb": "@dev",
+                    "doctrine/couchdb-odm": "@dev",
+                    "php": ">=5.3.2",
+                    "symfony/doctrine-bridge": "~2.3|~3.0",
+                    "symfony/framework-bundle": "~2.3|~3.0"
+                },
+                "time": "2016-01-06T03:04:14+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\Bundle\\CouchDBBundle": ""
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "Symfony2 Doctrine CouchDB Bundle",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence",
+                    "symfony"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/fix-factory-definitions"
+                }
+            },
+            {
+                "name": "doctrine/couchdb-odm-bundle",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "target-dir": "Doctrine/Bundle/CouchDBBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
+                    "reference": "7b1204c6655e607c7114e7cbfbf5de0f5d9ba93a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/7b1204c6655e607c7114e7cbfbf5de0f5d9ba93a",
+                    "reference": "7b1204c6655e607c7114e7cbfbf5de0f5d9ba93a",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/couchdb": "@dev",
+                    "doctrine/couchdb-odm": "@dev",
+                    "php": ">=5.3.2",
+                    "symfony/doctrine-bridge": "~2.3|~3.0",
+                    "symfony/framework-bundle": "~2.3|~3.0"
+                },
+                "time": "2015-12-14T20:07:33+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\Bundle\\CouchDBBundle": ""
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "Symfony2 Doctrine CouchDB Bundle",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence",
+                    "symfony"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/master"
+                }
+            },
+            {
+                "name": "doctrine/couchdb-odm-bundle",
+                "version": "dev-symfony3",
+                "version_normalized": "dev-symfony3",
+                "target-dir": "Doctrine/Bundle/CouchDBBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/DoctrineCouchDBBundle.git",
+                    "reference": "8187596ca4cf8e73e83bcfac1054e221f7ee1bfc"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/DoctrineCouchDBBundle/zipball/8187596ca4cf8e73e83bcfac1054e221f7ee1bfc",
+                    "reference": "8187596ca4cf8e73e83bcfac1054e221f7ee1bfc",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/couchdb": "@dev",
+                    "doctrine/couchdb-odm": "@dev",
+                    "php": ">=5.3.2",
+                    "symfony/doctrine-bridge": "~2.3|~3.0",
+                    "symfony/framework-bundle": "~2.3|~3.0"
+                },
+                "time": "2016-11-19T00:24:56+00:00",
+                "type": "symfony-bundle",
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\Bundle\\CouchDBBundle": ""
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "Symfony2 Doctrine CouchDB Bundle",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence",
+                    "symfony"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/DoctrineCouchDBBundle/tree/symfony3"
+                }
+            }
+        ]
+    }
+}

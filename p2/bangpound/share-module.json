@@ -1,0 +1,208 @@
+{
+    "packages": {
+        "bangpound/share-module": [
+            {
+                "name": "bangpound/share-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundshare.git",
+                    "reference": "715bc602d1adfefa0c16e57a030bd19779eee11c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/715bc602d1adfefa0c16e57a030bd19779eee11c",
+                    "reference": "715bc602d1adfefa0c16e57a030bd19779eee11c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23T02:38:57+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Share module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundshare/tree/7.0.0",
+                    "issues": "https://github.com/bangpound/bangpoundshare/issues"
+                }
+            },
+            {
+                "name": "bangpound/share-module",
+                "version": "7.0.1",
+                "version_normalized": "7.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundshare.git",
+                    "reference": "68bff680142f9ee03465c8306c2ff615f495b8e7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/68bff680142f9ee03465c8306c2ff615f495b8e7",
+                    "reference": "68bff680142f9ee03465c8306c2ff615f495b8e7",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2015-06-07T01:05:50+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Share module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundshare/tree/7.0.1",
+                    "issues": "https://github.com/bangpound/bangpoundshare/issues"
+                }
+            },
+            {
+                "name": "bangpound/share-module",
+                "version": "7.0.2",
+                "version_normalized": "7.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundshare.git",
+                    "reference": "2a18dc5d3c7e620914f02f29977b546d3de6e5c4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/2a18dc5d3c7e620914f02f29977b546d3de6e5c4",
+                    "reference": "2a18dc5d3c7e620914f02f29977b546d3de6e5c4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2015-06-07T06:32:19+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Share module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundshare/tree/7.0.2",
+                    "issues": "https://github.com/bangpound/bangpoundshare/issues"
+                }
+            },
+            {
+                "name": "bangpound/share-module",
+                "version": "7.0.3",
+                "version_normalized": "7.0.3.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundshare.git",
+                    "reference": "02aee19794b1f1e190ea150cf0fa26a19df3769c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/02aee19794b1f1e190ea150cf0fa26a19df3769c",
+                    "reference": "02aee19794b1f1e190ea150cf0fa26a19df3769c",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2015-07-30T06:59:31+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    },
+                    "installer-name": "bangpoundshare"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Share module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundshare/tree/7.0.3",
+                    "issues": "https://github.com/bangpound/bangpoundshare/issues"
+                }
+            },
+            {
+                "name": "bangpound/share-module",
+                "version": "7.0.4",
+                "version_normalized": "7.0.4.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundshare.git",
+                    "reference": "e402daffbf86de1a8535b3b54a35dc807881e0be"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/e402daffbf86de1a8535b3b54a35dc807881e0be",
+                    "reference": "e402daffbf86de1a8535b3b54a35dc807881e0be",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2015-11-29T16:27:38+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    },
+                    "installer-name": "bangpoundshare"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Share module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundshare/tree/7.0.4",
+                    "issues": "https://github.com/bangpound/bangpoundshare/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "packages": {
+        "bangpound/podcast-module": [
+            {
+                "name": "bangpound/podcast-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpodcast.git",
+                    "reference": "10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6",
+                    "reference": "10ee36fcd005a4495ecf1c67e02baa1d3e9e6fd6",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23T02:38:41+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Podcast module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpodcast/tree/7.0.0",
+                    "issues": "https://github.com/bangpound/bangpoundpodcast/issues"
+                }
+            },
+            {
+                "name": "bangpound/podcast-module",
+                "version": "7.0.1",
+                "version_normalized": "7.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpodcast.git",
+                    "reference": "4066def09476cab02b6ea28d67c8158f765bb5eb"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/4066def09476cab02b6ea28d67c8158f765bb5eb",
+                    "reference": "4066def09476cab02b6ea28d67c8158f765bb5eb",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2015-02-28T20:44:42+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Podcast module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpodcast/tree/7.0.1",
+                    "issues": "https://github.com/bangpound/bangpoundpodcast/issues"
+                }
+            },
+            {
+                "name": "bangpound/podcast-module",
+                "version": "7.0.2",
+                "version_normalized": "7.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundpodcast.git",
+                    "reference": "bf0d1f83dd23516c76af3080beaa7fa106fb7a98"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/bf0d1f83dd23516c76af3080beaa7fa106fb7a98",
+                    "reference": "bf0d1f83dd23516c76af3080beaa7fa106fb7a98",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2015-07-30T06:58:42+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    },
+                    "installer-name": "bangpoundpodcast"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Podcast module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundpodcast/tree/7.0.2",
+                    "issues": "https://github.com/bangpound/bangpoundpodcast/issues"
+                }
+            }
+        ]
+    }
+}

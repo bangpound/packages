@@ -1,0 +1,48 @@
+{
+    "packages": {
+        "bangpound/styles-module": [
+            {
+                "name": "bangpound/styles-module",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundstyles.git",
+                    "reference": "dfb3cc9ee8cfca5ba4bc3f4f3fd186b3c1c4f996"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/dfb3cc9ee8cfca5ba4bc3f4f3fd186b3c1c4f996",
+                    "reference": "dfb3cc9ee8cfca5ba4bc3f4f3fd186b3c1c4f996",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2017-02-06T07:48:35+00:00",
+                "default-branch": true,
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.x-dev"
+                    },
+                    "installer-name": "bangpoundstyles"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Styles module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundstyles/tree/master",
+                    "issues": "https://github.com/bangpound/bangpoundstyles/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "packages": {
+        "rshief/migration-bundle": [
+            {
+                "name": "rshief/migration-bundle",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/R-Shief/migration-bundle.git",
+                    "reference": "5775b57f7115ad2e563b5802f59f855394fa108d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/R-Shief/migration-bundle/zipball/5775b57f7115ad2e563b5802f59f855394fa108d",
+                    "reference": "5775b57f7115ad2e563b5802f59f855394fa108d",
+                    "shasum": ""
+                },
+                "require": {
+                    "ddeboer/data-import": "~0.16",
+                    "ddeboer/data-import-bundle": "~0.1.0",
+                    "mjohnson/decoda": "~6.2.3"
+                },
+                "time": "2014-09-04T03:26:13+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Rshief\\Bundle\\MigrationBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Rshief migration into Kal3a.",
+                "support": {
+                    "source": "https://github.com/R-Shief/migration-bundle/tree/master",
+                    "issues": "https://github.com/R-Shief/migration-bundle/issues"
+                }
+            }
+        ]
+    }
+}

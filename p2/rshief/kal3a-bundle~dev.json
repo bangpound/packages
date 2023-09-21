@@ -1,0 +1,49 @@
+{
+    "packages": {
+        "rshief/kal3a-bundle": [
+            {
+                "name": "rshief/kal3a-bundle",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/R-Shief/kal3a-bundle.git",
+                    "reference": "fbbdcd7420297c3e29b60d923244a964ad436411"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/R-Shief/kal3a-bundle/zipball/fbbdcd7420297c3e29b60d923244a964ad436411",
+                    "reference": "fbbdcd7420297c3e29b60d923244a964ad436411",
+                    "shasum": ""
+                },
+                "time": "2016-01-05T08:00:31+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Rshief\\Bundle\\Kal3aBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Kal3a modifications of Castle.",
+                "support": {
+                    "source": "https://github.com/R-Shief/kal3a-bundle/tree/master",
+                    "issues": "https://github.com/R-Shief/kal3a-bundle/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "bangpound/angularjs-bundle": [
+            {
+                "name": "bangpound/angularjs-bundle",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/angularjs-bundle.git",
+                    "reference": "2ebf3ed1af97a3a081d1921beeb88279a2a6d794"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/angularjs-bundle/zipball/2ebf3ed1af97a3a081d1921beeb88279a2a6d794",
+                    "reference": "2ebf3ed1af97a3a081d1921beeb88279a2a6d794",
+                    "shasum": ""
+                },
+                "require": {
+                    "sp/bower-bundle": "~0.11"
+                },
+                "time": "2014-09-01T17:42:08+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Bangpound\\Bundle\\AngularJsBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "AngularJS Symfony bundle",
+                "support": {
+                    "source": "https://github.com/bangpound/angularjs-bundle/tree/master",
+                    "issues": "https://github.com/bangpound/angularjs-bundle/issues"
+                }
+            }
+        ]
+    }
+}

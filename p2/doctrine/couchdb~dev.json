@@ -1,0 +1,251 @@
+{
+    "packages": {
+        "doctrine/couchdb": [
+            {
+                "name": "doctrine/couchdb",
+                "version": "dev-abstract-query",
+                "version_normalized": "dev-abstract-query",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "60d30c91d06727b467ddfda46a81bdf1167b18c0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/60d30c91d06727b467ddfda46a81bdf1167b18c0",
+                    "reference": "60d30c91d06727b467ddfda46a81bdf1167b18c0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2016-11-19T00:15:10+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\CouchDB": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-0": {
+                        "Doctrine\\Tests": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/abstract-query"
+                }
+            },
+            {
+                "name": "doctrine/couchdb",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "ae64902b7ce2d779d8c791de0fc5877e19cf2d70"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/ae64902b7ce2d779d8c791de0fc5877e19cf2d70",
+                    "reference": "ae64902b7ce2d779d8c791de0fc5877e19cf2d70",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2016-11-20T03:29:49+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Doctrine\\CouchDB\\": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Doctrine\\Tests\\": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/develop"
+                }
+            },
+            {
+                "name": "doctrine/couchdb",
+                "version": "dev-feature/new-api",
+                "version_normalized": "dev-feature/new-api",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "b36f440d85fb26347ad5ee8a85247045823bc8e3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/b36f440d85fb26347ad5ee8a85247045823bc8e3",
+                    "reference": "b36f440d85fb26347ad5ee8a85247045823bc8e3",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2016-11-19T15:53:09+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\CouchDB": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-0": {
+                        "Doctrine\\Tests": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/feature/new-api"
+                }
+            },
+            {
+                "name": "doctrine/couchdb",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "911c01716730af0fc0b5074a0740fddce3156ac0"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/911c01716730af0fc0b5074a0740fddce3156ac0",
+                    "reference": "911c01716730af0fc0b5074a0740fddce3156ac0",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "~4.0"
+                },
+                "time": "2016-08-06T11:26:41+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\CouchDB": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-0": {
+                        "Doctrine\\Tests": "tests/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/master"
+                }
+            }
+        ]
+    }
+}

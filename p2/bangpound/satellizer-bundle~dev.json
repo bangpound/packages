@@ -1,0 +1,52 @@
+{
+    "packages": {
+        "bangpound/satellizer-bundle": [
+            {
+                "name": "bangpound/satellizer-bundle",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/satellizer-bundle.git",
+                    "reference": "eda0f7c346742fb3650475917829ef6216301674"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/satellizer-bundle/zipball/eda0f7c346742fb3650475917829ef6216301674",
+                    "reference": "eda0f7c346742fb3650475917829ef6216301674",
+                    "shasum": ""
+                },
+                "require": {
+                    "sp/bower-bundle": "~0.11"
+                },
+                "time": "2014-09-01T17:55:13+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Bangpound\\Bundle\\SatellizerBundle\\": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Satellizer Symfony bundle",
+                "support": {
+                    "source": "https://github.com/bangpound/satellizer-bundle/tree/master",
+                    "issues": "https://github.com/bangpound/satellizer-bundle/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "packages": {
+        "bangpound/corpwatch-data-bundle": [
+            {
+                "name": "bangpound/corpwatch-data-bundle",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "target-dir": "Bangpound/CorpWatch/DataBundle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/CorpWatchDataBundle.git",
+                    "reference": "72dc5e068307fa6a3db39acb769601e0709676a8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/CorpWatchDataBundle/zipball/72dc5e068307fa6a3db39acb769601e0709676a8",
+                    "reference": "72dc5e068307fa6a3db39acb769601e0709676a8",
+                    "shasum": ""
+                },
+                "time": "2013-08-10T04:01:20+00:00",
+                "default-branch": true,
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Bangpound\\CorpWatch\\DataBundle\\": ""
+                    }
+                },
+                "license": [
+                    "GPL-3.0"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "CorpWatch data bundle",
+                "support": {
+                    "source": "https://github.com/bangpound/CorpWatchDataBundle/tree/master",
+                    "issues": "https://github.com/bangpound/CorpWatchDataBundle/issues"
+                }
+            }
+        ]
+    }
+}

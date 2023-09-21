@@ -1,0 +1,53 @@
+{
+    "packages": {
+        "rvdv/guzzle-clients": [
+            {
+                "name": "rvdv/guzzle-clients",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "target-dir": "Guzzle",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/guzzle-clients.git",
+                    "reference": "1a555035a2fe33c0301a3856b06cb47d173c1173"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/guzzle-clients/zipball/1a555035a2fe33c0301a3856b06cb47d173c1173",
+                    "reference": "1a555035a2fe33c0301a3856b06cb47d173c1173",
+                    "shasum": ""
+                },
+                "require": {
+                    "guzzle/guzzle": "3.5.*"
+                },
+                "time": "2013-06-09T03:40:24+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Guzzle": ""
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Robin van der Vleuten",
+                        "email": "robinvdvleuten@gmail.com"
+                    }
+                ],
+                "description": "Contains the configuration for multiple APIs in Guzzle.",
+                "homepage": "https://github.com/RobinvdVleuten/guzzle-clients",
+                "support": {
+                    "source": "https://github.com/bangpound/guzzle-clients/tree/master"
+                }
+            }
+        ]
+    }
+}

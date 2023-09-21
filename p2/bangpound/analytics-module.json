@@ -1,0 +1,127 @@
+{
+    "packages": {
+        "bangpound/analytics-module": [
+            {
+                "name": "bangpound/analytics-module",
+                "version": "7.0.0",
+                "version_normalized": "7.0.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundanalytics.git",
+                    "reference": "9156c00537b86dc1096bfc38acd2977f63e90e5e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/9156c00537b86dc1096bfc38acd2977f63e90e5e",
+                    "reference": "9156c00537b86dc1096bfc38acd2977f63e90e5e",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-23T02:40:36+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Analytics module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/7.0.0",
+                    "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
+                }
+            },
+            {
+                "name": "bangpound/analytics-module",
+                "version": "7.0.1",
+                "version_normalized": "7.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundanalytics.git",
+                    "reference": "c3f35349cf3bba873f91484a9536787e6fdf379f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/c3f35349cf3bba873f91484a9536787e6fdf379f",
+                    "reference": "c3f35349cf3bba873f91484a9536787e6fdf379f",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-11-24T06:41:55+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Analytics module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/7.0.1",
+                    "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
+                }
+            },
+            {
+                "name": "bangpound/analytics-module",
+                "version": "7.0.2",
+                "version_normalized": "7.0.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/bangpoundanalytics.git",
+                    "reference": "1f087b6416c04f2882226c639b5dcb23c091385d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundanalytics/zipball/1f087b6416c04f2882226c639b5dcb23c091385d",
+                    "reference": "1f087b6416c04f2882226c639b5dcb23c091385d",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2015-07-30T06:56:50+00:00",
+                "type": "drupal-module",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "7.0.x-dev"
+                    },
+                    "installer-name": "bangpoundanalytics"
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Analytics module",
+                "support": {
+                    "source": "https://github.com/bangpound/bangpoundanalytics/tree/7.0.2",
+                    "issues": "https://github.com/bangpound/bangpoundanalytics/issues"
+                }
+            }
+        ]
+    }
+}

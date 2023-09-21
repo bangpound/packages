@@ -1,0 +1,60 @@
+{
+    "packages": {
+        "doctrine/couchdb": [
+            {
+                "name": "doctrine/couchdb",
+                "version": "1.0.0-alpha1",
+                "version_normalized": "1.0.0.0-alpha1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/couchdb-client.git",
+                    "reference": "9d20cf705b15269a793fd8e6a02e542e8f9e4ff7"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/couchdb-client/zipball/9d20cf705b15269a793fd8e6a02e542e8f9e4ff7",
+                    "reference": "9d20cf705b15269a793fd8e6a02e542e8f9e4ff7",
+                    "shasum": ""
+                },
+                "require": {
+                    "doctrine/common": "@stable",
+                    "php": ">=5.3.2"
+                },
+                "time": "2013-07-28T02:11:58+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "1.0-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-0": {
+                        "Doctrine\\CouchDB": "lib/"
+                    }
+                },
+                "license": [
+                    "LGPL"
+                ],
+                "authors": [
+                    {
+                        "name": "Benjamin Eberlei",
+                        "email": "kontakt@beberlei.de"
+                    },
+                    {
+                        "name": "Lukas Kahwe Smith",
+                        "email": "smith@pooteeweet.org"
+                    }
+                ],
+                "description": "CouchDB Client",
+                "homepage": "http://www.doctrine-project.org",
+                "keywords": [
+                    "couchdb",
+                    "persistence"
+                ],
+                "support": {
+                    "source": "https://github.com/bangpound/couchdb-client/tree/1.0.0-alpha1"
+                }
+            }
+        ]
+    }
+}
