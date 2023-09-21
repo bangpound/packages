@@ -550,18 +550,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundentity.git",
-                    "reference": "49b6de5b96f9e2950930034f7732af551e232954"
+                    "reference": "e5e7dfbc413f13b215c12abdaf47f40bfd765780"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/49b6de5b96f9e2950930034f7732af551e232954",
-                    "reference": "49b6de5b96f9e2950930034f7732af551e232954",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/e5e7dfbc413f13b215c12abdaf47f40bfd765780",
+                    "reference": "e5e7dfbc413f13b215c12abdaf47f40bfd765780",
                     "shasum": ""
                 },
-                "require": {
-                    "composer/installers": "~1.0"
-                },
-                "time": "2017-10-19T02:15:21+00:00",
+                "time": "2023-09-21T02:49:42+00:00",
                 "default-branch": true,
                 "type": "drupal-module",
                 "extra": {
@@ -1252,19 +1249,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundpanels.git",
-                    "reference": "0479cde8cdd200988f839e5a7f3c88ea74a25f9e"
+                    "reference": "5aeb11fc299f07885e86d2a04627dde22ca326f5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/0479cde8cdd200988f839e5a7f3c88ea74a25f9e",
-                    "reference": "0479cde8cdd200988f839e5a7f3c88ea74a25f9e",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpanels/zipball/5aeb11fc299f07885e86d2a04627dde22ca326f5",
+                    "reference": "5aeb11fc299f07885e86d2a04627dde22ca326f5",
                     "shasum": ""
                 },
                 "require": {
-                    "composer/installers": "~1.0",
                     "symfony/property-access": "~2.7|^3.0|^4.0"
                 },
-                "time": "2018-09-30T02:34:25+00:00",
+                "time": "2023-09-21T02:50:13+00:00",
                 "default-branch": true,
                 "type": "drupal-module",
                 "extra": {
@@ -1284,7 +1280,7 @@
                 ],
                 "description": "Panels module",
                 "support": {
-                    "source": "https://github.com/bangpound/bangpoundpanels/tree/1.0.7",
+                    "source": "https://github.com/bangpound/bangpoundpanels/tree/master",
                     "issues": "https://github.com/bangpound/bangpoundpanels/issues"
                 }
             }
@@ -1418,18 +1414,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundpodcast.git",
-                    "reference": "8d3d6cd4dd8b6396625a964c1c2dc884400dee0e"
+                    "reference": "c235eca7a26a7824415f77b44ceb4c37e5662599"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/8d3d6cd4dd8b6396625a964c1c2dc884400dee0e",
-                    "reference": "8d3d6cd4dd8b6396625a964c1c2dc884400dee0e",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundpodcast/zipball/c235eca7a26a7824415f77b44ceb4c37e5662599",
+                    "reference": "c235eca7a26a7824415f77b44ceb4c37e5662599",
                     "shasum": ""
                 },
-                "require": {
-                    "composer/installers": "~1.0"
-                },
-                "time": "2016-11-08T06:35:04+00:00",
+                "time": "2023-09-21T02:50:34+00:00",
                 "default-branch": true,
                 "type": "drupal-module",
                 "extra": {
@@ -1757,18 +1750,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundshare.git",
-                    "reference": "e39806f69b5f5a121a171cb0ae1f2c7cfe4dd7f8"
+                    "reference": "763b1f69a5ac335b636ce892d08fef509d222748"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/e39806f69b5f5a121a171cb0ae1f2c7cfe4dd7f8",
-                    "reference": "e39806f69b5f5a121a171cb0ae1f2c7cfe4dd7f8",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundshare/zipball/763b1f69a5ac335b636ce892d08fef509d222748",
+                    "reference": "763b1f69a5ac335b636ce892d08fef509d222748",
                     "shasum": ""
                 },
-                "require": {
-                    "composer/installers": "~1.0"
-                },
-                "time": "2016-11-08T06:34:22+00:00",
+                "time": "2023-09-21T02:50:48+00:00",
                 "default-branch": true,
                 "type": "drupal-module",
                 "extra": {
@@ -2044,18 +2034,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundstyles.git",
-                    "reference": "dfb3cc9ee8cfca5ba4bc3f4f3fd186b3c1c4f996"
+                    "reference": "421ed555668de1409d9c21d6b7bb668502e5d9b4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/dfb3cc9ee8cfca5ba4bc3f4f3fd186b3c1c4f996",
-                    "reference": "dfb3cc9ee8cfca5ba4bc3f4f3fd186b3c1c4f996",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundstyles/zipball/421ed555668de1409d9c21d6b7bb668502e5d9b4",
+                    "reference": "421ed555668de1409d9c21d6b7bb668502e5d9b4",
                     "shasum": ""
                 },
-                "require": {
-                    "composer/installers": "~1.0"
-                },
-                "time": "2017-02-06T07:48:35+00:00",
+                "time": "2023-09-21T02:51:05+00:00",
                 "default-branch": true,
                 "type": "drupal-module",
                 "extra": {

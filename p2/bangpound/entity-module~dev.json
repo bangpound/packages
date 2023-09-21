@@ -8,18 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/bangpoundentity.git",
-                    "reference": "49b6de5b96f9e2950930034f7732af551e232954"
+                    "reference": "e5e7dfbc413f13b215c12abdaf47f40bfd765780"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/49b6de5b96f9e2950930034f7732af551e232954",
-                    "reference": "49b6de5b96f9e2950930034f7732af551e232954",
+                    "url": "https://api.github.com/repos/bangpound/bangpoundentity/zipball/e5e7dfbc413f13b215c12abdaf47f40bfd765780",
+                    "reference": "e5e7dfbc413f13b215c12abdaf47f40bfd765780",
                     "shasum": ""
                 },
-                "require": {
-                    "composer/installers": "~1.0"
-                },
-                "time": "2017-10-19T02:15:21+00:00",
+                "time": "2023-09-21T02:49:42+00:00",
                 "default-branch": true,
                 "type": "drupal-module",
                 "extra": {
